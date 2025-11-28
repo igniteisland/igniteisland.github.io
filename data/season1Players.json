@@ -1,6 +1,5 @@
 {
   "players": {
-    "Shura":        { "name": "Shura",      "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
     "Jay":          { "name": "Jay",        "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
     "HooZher":      { "name": "HooZher",    "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
     "Elymis":       { "name": "Elymis",     "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
@@ -19,25 +18,7 @@
   },
   "days": {
     "1": {
-      "Jay":       { "role": "fdafdsafasd",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "HooZher":   { "role": "fdasfdsa",   "health": 10,  "food": 10, "votes": [], "status": "Dead"},
-      "Elymis":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "Jam":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "Nexus":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"}
-    },
-    "2": {
-      "Jay":       { "role": "fdafdsafasd",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "HooZher":   { "role": "fdasfdsa",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "Elymis":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "Jam":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "Nexus":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"}
-    },
-    "3": {
-      "Jay":       { "role": "fdafdsafasd",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "HooZher":   { "role": "fdasfdsa",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "Elymis":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "Jam":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
-      "Nexus":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"}
+      
     }
   }
 }
