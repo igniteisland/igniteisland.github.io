@@ -1,0 +1,8 @@
+{
+  "Day 1": { "temperature": 85, "weather": "Hot"      , "moon": "Waxing Gibbous"},
+  "Day 2": { "temperature": 72, "weather": "Clear"    , "moon": "New Moon"},
+  "Day 3": { "temperature": 38, "weather": "Freezing" , "moon": "Waxing Crescent"},
+  "Day 4": { "temperature": 38, "weather": "Heat Wave", "moon": "Waxing Crescent"},
+  "Day 5": { "temperature": 38, "weather": "Rainy"    , "moon": "Waxing Crescent"},
+  "Day 6": { "temperature": 38, "weather": "Cold"     , "moon": "Waxing Crescent"}
+}

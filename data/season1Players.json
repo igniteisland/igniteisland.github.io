@@ -1,0 +1,43 @@
+{
+  "players": {
+    "Shura":        { "name": "Shura",      "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Jay":          { "name": "Jay",        "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "HooZher":      { "name": "HooZher",    "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Elymis":       { "name": "Elymis",     "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Psiphicode":   { "name": "Psiphicode", "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Harv":         { "name": "Harv",       "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Helios":       { "name": "Helios",     "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Asym":         { "name": "Asym",       "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Nexus":        { "name": "Nexus",      "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Rambler":      { "name": "Rambler",    "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Lemon":        { "name": "Lemon",      "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Jam":          { "name": "Jam",        "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Azdomiel":     { "name": "Azdomiel",   "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Dino":         { "name": "Dino",       "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Strump":       { "name": "Strump",     "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Wander":       { "name": "Wander",     "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" }
+  },
+  "days": {
+    "1": {
+      "Jay":       { "role": "fdafdsafasd",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "HooZher":   { "role": "fdasfdsa",   "health": 10,  "food": 10, "votes": [], "status": "Dead"},
+      "Elymis":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "Jam":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "Nexus":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"}
+    },
+    "2": {
+      "Jay":       { "role": "fdafdsafasd",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "HooZher":   { "role": "fdasfdsa",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "Elymis":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "Jam":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "Nexus":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"}
+    },
+    "3": {
+      "Jay":       { "role": "fdafdsafasd",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "HooZher":   { "role": "fdasfdsa",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "Elymis":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "Jam":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"},
+      "Nexus":    { "role": "",   "health": 10,  "food": 10, "votes": [], "status": "Alive"}
+    }
+  }
+}

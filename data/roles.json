@@ -1,0 +1,85 @@
+{
+"NormalRoles": {
+  "Assassin": {
+    "description": "If the Assassin is not kicked off the Island, those who voted for the Assassin can now be assassinated. The Assassin is the only Role that can kill someone in Prison. The Assassin has a base chance of killing the target of 25% along with having a 50% chance of surviving an attack. The chances increase if the target is poisoned or weakened by 12.5%. The Assassin can poison a survivor once per day, lowering Health by 1 and Food by 1. Any survivor can ask the Assassin to kill someone, but the Assassin will need blood as insurance: you lose 2 Health regardless of success. Having the Machete From Hell increases the base 25% chance to 50%. Failed attempts are not announced."
+  },
+
+  "Bard": {
+    "description": "The Bard can perform music or storytelling. The Bard may:\n- Increase the chances of getting their preferred weather by 50%\n- Choose a survivor to boost morale, granting +2 Health\n- Tell a story (true or false)"
+  },
+
+  "Blacksmith": {
+    "description": "Makes weapons and armor for the Island. The Blacksmith has armor but can also give armor to a survivor to increase their survivability from an attack by 45%. The Blacksmith has to choose whether or not to make the 'Machete From Hell' for the Assassin, Interrogator, and Nightguard."
+  },
+
+  "Builder": {
+    "description": "The Builder is a master craftsman and architect who greatly increases the survivability of survivors. The Builder can construct one Special Build per day, which takes one day to complete.\n\nSpecial Builds:\n- Weather Rock:\n  - Bard dictates the weather with 100% accuracy and can boost morale of 2 survivors.\n- Sacred Jail:\n  - Prevents a survivor from using their Secret Role or voting; Assassin cannot break in.\n- Taller Nightguard Tower:\n  - The South area becomes fully visible; Cannibal/Werewolf can only attack from North/East/West.\n- Lecture Hall:\n  - Teacher can buff 2 people instead of 1.\n\nStructures remain for 2 days after the Builder is killed or voted off."
+  },
+
+  "Cook": {
+    "description": "The Cook is able to cook different meals for The Island survivors as long as the Hunter or Fisher are still on The Island. The Different Meals are:\n- Gourmet Scorpion Stew:\n  - Heal 5 people for 2 Health and 2 Food (must target 5 people).\n- DoorDashed Box Combo:\n  - Arrives the next day. Grants immunity from being kicked off (not from being killed). 3-day cooldown. Cannot be used in Top 3.\n- Shura’s 2am Spaghetti:\n  - Takes one day to activate. Grants increased defense from attacks by 45%."
+  },
+
+  "Farmer": {
+    "description": "Plants crops to provide food. Can plant one Special Crop per day.\n\nSpecial Crops:\n- Sneaky Spinach (50%):\n  - Immunity to nighttime Cannibal/Werewolf attacks.\n- Lively Lemons (70%):\n  - Grants an extra action. Max 2 per day.\n- Tasty Tangerine (70%):\n  - Restores 3 Hearts and 3 Hunger.\n- Trippy Tulips (70%):\n  - Makes the consumer unable to use their role or vote.\n- Notch Apple (70%):\n  - Grants full invincibility for one day and full restore. Only 1 may be grown; takes 3 days; rots in Top 5.\n\nThe Farmer can store 1 Special Crop for a later date. The chances of a successful harvest go down to 50% if the weather is too cold or too hot. The 'Old McDonald's Overalls' will give a guaranteed chance of having a successful harvest."
+  },
+
+  "Fisher": {
+    "description": "Fishes daily and may obtain Special Items.\n\nSpecial Items:\n- Luminous Seashell (15%):\n  - Reveals the truth of a survivor’s actions for a day.\n- Gleaming Sardine Scale (15%):\n  - Can be worn as armor reducing attacks by 50%.\n- Moby Dick’s Harpoon (10%):\n  - Can slay any Sea Beast; only 1 exists.\n- The Black Pearl (15%):\n  - Summons a Sea Beast.\n- Cursed Cuttlefish Ink (15%):\n  - Blinds the survivor, disabling voting and role use.\n\nThe Fisher is able store 1 Special Item for a later date. Rainy Weather will increase the chances of fishing 'Moby Dick's Harpoon' to 20%. 'Jeremy Wade's Net' will now make it a guaranteed that one of the Special Items is fished that day."
+  },
+
+  "Hunter": {
+    "description": "Hunts for food and can tame Special Animals.\n\nSpecial Animals:\n- Ethereal Eagle (15%):\n  - Watches over one survivor at night, blocking Cannibal/Werewolf attacks.\n- Envious Fox (15%):\n  - Provides false information to any information-gathering ability.\n- Mystical Owl (15%):\n  - Reveals everyone's votes and planned attacks.\n- Sif, The Great Grey Wolf (10%):\n  - Protects the Hunter from all land threats except Assassin.\n- Jinxed Jackrabbit (15%):\n  - Curses a player so they cannot perform their role or vote.\n\nThe Hunter will be able store 1 Special Animal for a later date. Rainy weather will negatively affect the chances of a successful hunt by 5%. Clear weather will make the chances of taming 'Sif, The Great Grey Wolf' to 20%. 'Robin Hood's Hat' will now make it guaranteed that one of the Special Animals is hunted down."
+  },
+
+  "Interrogator": {
+    "description": "Can interrogate survivors to learn their planned actions, votes, and whether they used a Secret Role the day before. Base success: 50%. If target is jailed: 70%. With the Machete From Hell, becomes an Executioner who can execute a kicked-off survivor to prevent resurrection."
+  },
+
+  "Jailor": {
+    "description": "Can lock up anyone on the Island. Being locked up prevents one from doing their roles, but also prevents them from being killed by the Cannibal or the Werewolf. Being in jail doesn’t prevent one from being poisoned or affected by any other negative effects. The Wizard bypasses being locked up and can still cast spells in jail."
+  },
+
+  "Medic": {
+    "description": "Can Heal or Poison. Heal/Poison restores or damages 2 Hearts and 1 Hunger. Cannot Heal/Poison the same person twice in a day. Cannot Poison two people in one day. May Heal/Heal or Heal/Poison."
+  },
+
+  "Nightguard": {
+    "description": "Chooses a side of the Island to defend. North, East, West, or South. If the Nightguard catches the Cannibal/Werewolf in the act of attacking another survivor, he will be able to inform the Island on who the Cannibal/Werewolf is. Or lie about it. The Nightguard will have a 50% chance of surviving an attack if they guess the direction, 35% chance if they guess wrong. The Nightguard will also have the ability to wield the Machete From Hell. Which will allow them to defend the survivor who was attacked, assuming that they guessed the right direction, the chances of defending against an attack is 50%."
+  },
+
+  "Priest": {
+    "description": "The Priest has the ability to bring back a survivor who has been kicked off and a survivor who has been killed. These are separate abilities, so they can be used at different times or on the same day. Both abilities have a 3 day cooldown. The Priest can also give someone a Cross Necklace/Pendant to prevent one from being affected by any poison and from being killed. The Wizard can not cast spells if the Cross is placed on the Wizard player. The Cross goes away after a day and will have to be given to someone else (or the same person) the next day."
+  },
+
+  "Scavenger": {
+    "description": "Gathers berries and nuts, and may find Special Artifacts.\n\nArtifacts:\n- Alternate Timeline (10%):\n  - View alternate outcomes.\n- The Equalizer (10%):\n  - Equalize the Island.\n- The Summoning Key (10%):\n  - Summon a Great One.\n- Celium Piece (10%):\n  - Harness Celium power.\n\nThe Scavenger is allowed to hold onto theses and use at a later time except they will be taken away in the Top 4. The 'Indiana Jones Satchel' will make the scavenger more likely to find the artifacts by 5%."
+  },
+
+  "Tailor": {
+    "description": "The Tailor will make clothes for the Island each day. If the wrong clothes are made for the day, everyone will lose a Heart Point. While everyone will gain a Heart Point if the right clothes are worn and there is a structure on the Island. The Tailor also has the ability to make clothes for the Food Roles.\n\nThe Tailor can craft either:\n- “Old McDonald’s Overalls”\n- “Jeremy Wade’s Net”\n- “Robin Hoods Hat”\n- “Indiana Jones Satchel”\nfor the respective food roles.\n\nHowever, only one of the four can be crafted and given to their respective role, until they are voted off."
+  },
+
+  "Teacher": {
+    "description": "Can teach any role, even if that role is absent. Teaching cooldown: 3 days.\nTeacher buff effects:\n- Heal/Poison increased by 1\n- Food Role success +10%\n- Nightguard choices reduced to 2\n- Blacksmith armor becomes 75%\n- Interrogator becomes 100% successful\n- Assassin success chance +12.5%\n- Reduces poison effects by 1\nTeacher buff also prevents false information from affecting the buffed survivor."
+  }
+},
+
+  "SecretRoles": {
+     "Cannibal": {
+       "description": "Kills anyone they want on the Island but chooses a side to attack from (North, East, West, or South). If their target is protected in any way, the attack will be reported as a failed attempt. As long as the Nightguard does not spot the attempt, the Cannibal’s identity stays secret unless interrogated. The Cannibal does not have to attack every day, but if they do not attack for 2 days, the role will be lost."
+     },
+
+     "Mimic": {
+       "description": "Has the ability to use the ability of any survivor currently on The Island. Cannot Mimic the same role twice in a row. Can Mimic even while in Jail."
+     },
+
+     "Werewolf": {
+       "description": "Kills anyone they want on the Island during a Full Moon or Blood Moon. They choose a direction to attack from (North, East, West, or South), identical to the Cannibal. If their target is protected, the attack will be reported as a failed attempt. As long as the Nightguard does not spot the attempt, the Werewolf’s identity stays secret."
+     },
+
+     "Wizard": {
+       "description": "Has a variety of spells that can help or threaten The Island. The Wizard can bypass being jailed. The only things that prevent spellcasting are the Priest’s Charm and events that weaken the entire Island. The Wizard may cast one Normal Spell and one Special Spell in the same day.\n\nBasic Spells:\n- Poison Mist:\n  - A survivor will lose 3 Heart Points and 3 Hunger Points\n- Weaken:\n  - Prevents a survivor from performing their role and from voting\n- Great Heal:\n  - Restores 3 Heart Points and 3 Hunger Points to a survivor\n- False Voting:\n  - Grants an additional vote\n\nAdvanced Spells:\n- Role Switch:\n  - Permanently switches the roles of two people. Cannot use again for 3 days. (Both roles must still be present on The Island.)\n- Immunity:\n  - Grants immunity from being kicked off The Island. Cannot use again for 4 days.\n- Revive:\n  - Brings back a player who was killed. Cannot use again for 3 days.\n- Return:\n  - Brings back a player who was kicked off. Cannot use again for 3 days.\n- Temporal Reset:\n  - Resets The Island to the previous day. Can only be used once."
+     }
+   }
+}
