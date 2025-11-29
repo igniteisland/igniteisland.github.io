@@ -1,0 +1,37 @@
+{
+   "Players":
+   {
+      "Strump":  [ "Blacksmith", "Farmer", "Hunter" ],
+      "Elymis":  [ "Assassin", "Nightguard", "Interrogator"],
+      "Jay":     [ "Farmer", "Hunter", "Interrogator"],
+      "Wander":  [ "Cook", "Tailor", "Medic"],
+      "Helios":  [ "Interrogator", "Jailor", "Bard" ],
+      "HooZher": [ "Priest", "Bard", "Teacher" ],
+      "Nexus":   [ "Assassin", "Jailor", "Priest" ],
+      "Lemon":   [ "Fisher", "Scavenger", "Hunter" ],
+      "Rambler": [ "Interrogator", "Teacher", "Bard" ],
+      "Dino":    [ "Nightguard", "Scavenger", "Assassin" ],
+      "Asym":    [ "Fisher", "Scavenger", "Assassin" ],
+      "Sparkle": [ "Builder", "Farmer", "Jailor" ],
+      "Harv":    [ "Builder", "", ""],
+      "Psi":     [ "", "", ""]
+   },
+   "Assigned": {
+      "Assassin":     "Elymis",
+      "Bard":         "Psiphicode",
+      "Blacksmith":   "Strump",
+      "Builder":      "Harv",
+      "Cook":         "Wander",
+      "Farmer":       "Sparkle",
+      "Fisher":       "Lemon",
+      "Hunter":       "Jay",
+      "Interrogator": "Helios",
+      "Jailor":       "Nexus",
+      "Medic":        "Jam",
+      "Nightguard":   "Dino",
+      "Priest":       "HooZher",
+      "Scavenger":    "Asym",
+      "Tailor":       "Azdomiel",
+      "Teacher":      "Rambler"
+   }
+}

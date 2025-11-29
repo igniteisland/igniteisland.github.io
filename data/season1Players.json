@@ -1,24 +1,40 @@
 {
   "players": {
-    "Jay":          { "name": "Jay",        "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "HooZher":      { "name": "HooZher",    "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Elymis":       { "name": "Elymis",     "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Psiphicode":   { "name": "Psiphicode", "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Harv":         { "name": "Harv",       "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Helios":       { "name": "Helios",     "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Asym":         { "name": "Asym",       "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Nexus":        { "name": "Nexus",      "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Rambler":      { "name": "Rambler",    "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Lemon":        { "name": "Lemon",      "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Jam":          { "name": "Jam",        "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Azdomiel":     { "name": "Azdomiel",   "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Dino":         { "name": "Dino",       "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Strump":       { "name": "Strump",     "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
-    "Wander":       { "name": "Wander",     "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" }
+    "Jay":          { "name": "Jay",         "avatar": "/playerProfilePic/jayProfilePic.webp", "status": "Alive" },
+    "HooZher":      { "name": "HooZher",     "avatar": "/playerProfilePic/hoozherProfilePic.png", "status": "Alive" },
+    "Elymis":       { "name": "Elymis",      "avatar": "/playerProfilePic/elymisProfilePic.png", "status": "Alive" },
+    "Sparklemouse": { "name": "Sparklemouse","avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Psiphicode":   { "name": "Psiphicode",  "avatar": "/playerProfilePic/psiProfilePic.png", "status": "Alive" },
+    "Harv":         { "name": "Harv",        "avatar": "/playerProfilePic/harvProfilePic.png", "status": "Alive" },
+    "Helios":       { "name": "Helios",      "avatar": "/playerProfilePic/heliosProfilePic.png", "status": "Alive" },
+    "Asym":         { "name": "Asym",        "avatar": "/playerProfilePic/asymProfilePic.png", "status": "Alive" },
+    "Nexus":        { "name": "Nexus",       "avatar": "/playerProfilePic/nexusProfilePic.jpg", "status": "Alive" },
+    "Rambler":      { "name": "Rambler",     "avatar": "/playerProfilePic/ramblerProfilePic.png", "status": "Alive" },
+    "Lemon":        { "name": "Lemon",       "avatar": "/playerProfilePic/lemonProfilePic.png", "status": "Alive" },
+    "Jam":          { "name": "Jam",         "avatar": "/playerProfilePic/jamProfilePic.jpg", "status": "Alive" },
+    "Azdomiel":     { "name": "Azdomiel",    "avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Dino":         { "name": "Dino",        "avatar": "/playerProfilePic/dinoProfilePic.jpg", "status": "Alive" },
+    "Strump":       { "name": "Strump",      "avatar": "/playerProfilePic/strumpProfilePic.png", "status": "Alive" },
+    "Wander":       { "name": "Wander",      "avatar": "/playerProfilePic/wanderProfilePic.png", "status": "Alive" }
   },
   "days": {
     "1": {
-      
+      "Elymis":       { "role": "Assassin", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Psiphicode":   {"role": "Bard", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Strump":       { "role": "Blacksmith", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Harv":         { "role": "Builder", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Wander":       { "role": "Cook", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Sparklemouse": { "role": "Farmer", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Lemon":        { "role": "Fisher", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Jay":          { "role": "Hunter", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Helios":       { "role": "Interrogator", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Nexus":        { "role": "Jailor", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Jam":          { "role": "Medic", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Dino":         { "role": "Nightguard", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "HooZher":      { "role": "Priest", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Asym":         { "role": "Scavenger", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Azdomiel":     { "role": "Tailor", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Rambler":      { "role": "Teacher", "health": 10, "food": 10, "votes": [], "status": "Alive" }
     }
   }
 }
