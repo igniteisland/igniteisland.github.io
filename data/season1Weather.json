@@ -1,3 +1,4 @@
 {
-  "Day 1": { "temperature": 71, "weather": "Clear", "moon": "Half Moon", "effects": ""}
+  "Day 1": { "temperature": 71, "weather": "Clear", "moon": "Half Moon", "effects": ""},
+  "Day 2": { "temperature": 65, "weather": "Rainy", "moon": "Waxing Gibbous", "effects": "+1 Health to Everyone"}
 }
