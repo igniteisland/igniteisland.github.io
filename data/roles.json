@@ -17,7 +17,7 @@
   },
 
   "Cook": {
-    "description": "The Cook is able to cook different meals for The Island survivors as long as the Hunter or Fisher are still on The Island. The Different Meals are:\n- Gourmet Scorpion Stew:\n  - Heal 5 people for 2 Health and 2 Food (must target 5 people).\n- DoorDashed Box Combo:\n  - Arrives the next day. Grants immunity from being kicked off (not from being killed). 3-day cooldown. Cannot be used in Top 3.\n- Shura’s 2am Spaghetti:\n  - Takes one day to activate. Grants increased defense from attacks by 45%."
+    "description": "The Cook is able to cook different meals for The Island survivors as long as the Hunter or Fisher are still on The Island. Can also poison a player per day. The Different Meals are:\n- Gourmet Scorpion Stew:\n  - Heal 5 people for 2 Health and 2 Food (must target 5 people).\n- DoorDashed Box Combo:\n  - Arrives the next day. Grants immunity from being kicked off (not from being killed). 3-day cooldown. Cannot be used in Top 3.\n- Shura’s 2am Spaghetti:\n  - Takes one day to activate. Grants increased defense from attacks by 45%."
   },
 
   "Farmer": {

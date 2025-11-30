@@ -45,7 +45,7 @@
       "Sparklemouse": { "role": "Farmer",       "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "Lemon":        { "role": "Fisher",       "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "Jay":          { "role": "Hunter",       "health": 10, "food": 10, "votes": [], "status": "Alive" },
-      "Helios":       { "role": "Interrogator", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Helios":       { "role": "Interrogator", "health": 9,  "food": 10, "votes": [], "status": "Alive" },
       "Nexus":        { "role": "Jailor",       "health": 8,  "food": 9,  "votes": [], "status": "Alive" },
       "Jam":          { "role": "Medic",        "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "Dino":         { "role": "Nightguard",   "health": 10, "food": 10, "votes": [], "status": "Alive" },
