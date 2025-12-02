@@ -3,7 +3,7 @@
     "Jay":          { "name": "Jay",         "avatar": "/playerProfilePic/jayProfilePic.webp", "status": "Alive" },
     "HooZher":      { "name": "HooZher",     "avatar": "/playerProfilePic/hoozherProfilePic.png", "status": "Alive" },
     "Elymis":       { "name": "Elymis",      "avatar": "/playerProfilePic/elymisProfilePic.png", "status": "Alive" },
-    "Sparklemouse": { "name": "Sparklemouse","avatar": "/playerProfilePic/defaultProfilePic.jpg", "status": "Alive" },
+    "Sparklemouse": { "name": "Sparklemouse","avatar": "/playerProfilePic/sparklemouseProfilePic.jpg", "status": "Alive" },
     "Psiphicode":   { "name": "Psiphicode",  "avatar": "/playerProfilePic/psiProfilePic.png", "status": "Alive" },
     "Harv":         { "name": "Harv",        "avatar": "/playerProfilePic/harvProfilePic.png", "status": "Alive" },
     "Helios":       { "name": "Helios",      "avatar": "/playerProfilePic/heliosProfilePic.png", "status": "Alive" },
@@ -61,14 +61,14 @@
       "Harv":         { "role": "Builder",      "health": 9, "food": 10, "votes": [], "status": "Alive" },
       "Wander":       { "role": "Cook",         "health": 9, "food": 10, "votes": [], "status": "Alive" },
       "Sparklemouse": { "role": "Farmer",       "health": 9, "food": 10, "votes": [], "status": "Alive" },
-      "Lemon":        { "role": "Fisher",       "health": 9, "food": 10, "votes": [], "status": "Alive" },
+      "Lemon":        { "role": "Fisher",       "health": 9, "food": 10, "votes": ["Elymis","Helios","Jam","Asym"], "status": "Alive" },
       "Jay":          { "role": "Hunter",       "health": 9, "food": 10, "votes": [], "status": "Alive" },
       "Helios":       { "role": "Interrogator", "health": 9, "food": 10, "votes": [], "status": "Alive" },
       "Jam":          { "role": "Medic",        "health": 9, "food": 10, "votes": [], "status": "Alive" },
       "Dino":         { "role": "Nightguard",   "health": 9, "food": 10, "votes": [], "status": "Alive" },
-      "HooZher":      { "role": "Priest",       "health": 9, "food": 10, "votes": [], "status": "Alive" },
+      "HooZher":      { "role": "Priest",       "health": 9, "food": 10, "votes": ["Wander", "Wander", "Jay", "Lemon", "Azdomiel","Psiphicode"], "status": "Dead" },
       "Asym":         { "role": "Scavenger",    "health": 9, "food": 10, "votes": [], "status": "Alive" },
-      "Azdomiel":     { "role": "Tailor",       "health": 9, "food": 10, "votes": [], "status": "Alive" },
+      "Azdomiel":     { "role": "Tailor",       "health": 9, "food": 10, "votes": [], "status": "Dead" },
       "Rambler":      { "role": "Teacher",      "health": 9, "food": 10, "votes": [], "status": "Alive" }
     }
   }
