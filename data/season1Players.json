@@ -46,7 +46,7 @@
       "Lemon":        { "role": "Fisher",       "health": 10, "food": 10, "votes": ["Dino","Lemon"], "status": "Alive" },
       "Jay":          { "role": "Hunter",       "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "Helios":       { "role": "Interrogator", "health": 9,  "food": 10, "votes": [], "status": "Alive" },
-      "Nexus":        { "role": "Jailor",       "health": 8,  "food": 9,  "votes": ["Elymis", "Nexus", "Azdomiel", "Sparklemouse", "Lemon", "Jay", "Jam"], "status": "Kicked Off" },
+      "Nexus":        { "role": "Jailor",       "health": 8,  "food": 8,  "votes": ["Elymis", "Nexus", "Azdomiel", "Sparklemouse", "Lemon", "Jay", "Jam"], "status": "Kicked Off" },
       "Jam":          { "role": "Medic",        "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "Dino":         { "role": "Nightguard",   "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "HooZher":      { "role": "Priest",       "health": 10, "food": 10, "votes": ["Psiphicode"], "status": "Alive" },
