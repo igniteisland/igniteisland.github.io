@@ -85,6 +85,21 @@
       "Dino":         { "role": "Nightguard",   "health": 9, "food": 10, "votes": ["Asym","Helios","Strump"], "status": "Alive" }, 
       "Asym":         { "role": "Scavenger",    "health": 9, "food": 10, "votes": [], "status": "Alive" }, 
       "Rambler":      { "role": "Teacher",      "health": 9, "food": 10, "votes": ["Dino"], "status": "Alive" }
+    },
+    "5": {
+      "Elymis":       { "role": "Assassin",     "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
+      "Psiphicode":   { "role": "Bard",         "health": 9,  "food": 10, "votes": [], "status": "Alive" }, 
+      "Strump":       { "role": "Blacksmith",   "health": 9,  "food": 10, "votes": [], "status": "Alive" }, 
+      "Harv":         { "role": "Builder",      "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
+      "Sparklemouse": { "role": "Farmer",       "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
+      "Jay":          { "role": "Hunter",       "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
+      "Helios":       { "role": "Interrogator", "health": 10, "food": 9,  "votes": [], "status": "Alive" },
+      "Nexus":        { "role": "Jailor",       "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Jam":          { "role": "Medic",        "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
+      "Dino":         { "role": "Nightguard",   "health": 9,  "food": 10, "votes": [], "status": "Alive" },
+      "HooZher":      { "role": "Priest",       "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "Asym":         { "role": "Scavenger",    "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
+      "Rambler":      { "role": "Teacher",      "health": 10, "food": 10, "votes": [], "status": "Alive" }
     }
   }
 }
