@@ -21,7 +21,7 @@
   },
 
   "Farmer": {
-    "description": "Plants crops to provide food. Can plant one Special Crop per day.\n\nSpecial Crops:\n- Sneaky Spinach (50%):\n  - Immunity to nighttime Cannibal/Werewolf attacks.\n- Lively Lemons (70%):\n  - Grants an extra action. Max 2 per day.\n- Tasty Tangerine (70%):\n  - Restores 3 Hearts and 3 Hunger.\n- Trippy Tulips (70%):\n  - Makes the consumer unable to use their role or vote.\n- Notch Apple (70%):\n  - Grants full invincibility for one day and full restore. Only 1 may be grown; takes 3 days; rots in Top 5.\n\nThe Farmer can store 1 Special Crop for a later date. The chances of a successful harvest go down to 50% if the weather is too cold or too hot. The 'Old McDonald's Overalls' will give a guaranteed chance of having a successful harvest."
+    "description": "Plants crops to provide food. Can plant one Special Crop per day.\n\nSpecial Crops:\n- Sneaky Spinach (50%):\n  - Immunity to nighttime Cannibal/Werewolf attacks.\n- Lively Lemons (70%):\n  - Grants an extra action. Max 2 per day.\n- Tasty Tangerine (70%):\n  - Restores 3 Hearts and 3 Hunger.\n- Trippy Tulips (70%):\n  - Makes the consumer unable to use their role or vote.\n- Golden Apple (70%):\n  - Grants full invincibility for one day and full restore. Only 1 may be grown; takes 3 days; rots in Top 5.\n\nThe Farmer can store 1 Special Crop for a later date. The chances of a successful harvest go down to 50% if the weather is too cold or too hot. The 'Old McDonald's Overalls' will give a guaranteed chance of having a successful harvest."
   },
 
   "Fisher": {
