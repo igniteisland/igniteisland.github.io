@@ -11,5 +11,5 @@
   "Rambler":      { "direction": "South", "avatar": "/playerProfilePic/ramblerProfilePic.png" },
   "Jam":          { "direction": "North", "avatar": "/playerProfilePic/jamProfilePic.jpg" },
   "Dino":         { "direction": "West", "avatar": "/playerProfilePic/dinoProfilePic.jpg" },
-  "Strump":       { "direction": "", "avatar": "/playerProfilePic/strumpProfilePic.png" }
+  "Strump":       { "direction": "East", "avatar": "/playerProfilePic/strumpProfilePic.png" }
 }

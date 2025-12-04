@@ -3,5 +3,6 @@
   "Day 2": { "temperature": 65, "weather": "Rainy", "moon": "Waxing Gibbous", "effects": "+1 Health to Everyone"},
   "Day 3": { "temperature": 111, "weather": "Heat Wave", "moon": "Full Moon", "effects": "-1 Health to Everyone"},
   "Day 4": { "temperature": 17, "weather": "Freezing", "moon": "Waning Gibbous", "effects": "+0 Health to Everyone"},
-  "Day 5": { "temperature": 76, "weather": "Clear", "moon": "Half Moon", "effects": "+1 Health/+1 Food to Everyone"}
+  "Day 5": { "temperature": 76, "weather": "Clear", "moon": "Half Moon", "effects": "+1 Health/+1 Food to Everyone"},
+  "Day 6": { "temperature": 73, "weather": "Clear", "moon": "Waning Crescent", "effects": "+1 Health to Everyone"}
 }
