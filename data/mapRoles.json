@@ -1,11 +1,15 @@
 {
-  "1": {
-    "Hunter": "East",
-    "Cook": "South"
-  },
-
-  "2": {
-    "Hunter": "North",
-    "Cook": "South"
-  }
+  "Jay":          { "direction": "East", "avatar": "/playerProfilePic/jayProfilePic.webp" },
+  "HooZher":      { "direction": "North", "avatar": "/playerProfilePic/hoozherProfilePic.png" },
+  "Elymis":       { "direction": "North", "avatar": "/playerProfilePic/elymisProfilePic.png" },
+  "Sparklemouse": { "direction": "West", "avatar": "/playerProfilePic/sparklemouseProfilePic.jpg" },
+  "Psiphicode":   { "direction": "North", "avatar": "/playerProfilePic/psiProfilePic.png" },
+  "Harv":         { "direction": "West", "avatar": "/playerProfilePic/harvProfilePic.png" },
+  "Helios":       { "direction": "East", "avatar": "/playerProfilePic/heliosProfilePic.png" },
+  "Asym":         { "direction": "South", "avatar": "/playerProfilePic/asymProfilePic.png" },
+  "Nexus":        { "direction": "West", "avatar": "/playerProfilePic/nexusProfilePic.jpg" },
+  "Rambler":      { "direction": "South", "avatar": "/playerProfilePic/ramblerProfilePic.png" },
+  "Jam":          { "direction": "North", "avatar": "/playerProfilePic/jamProfilePic.jpg" },
+  "Dino":         { "direction": "West", "avatar": "/playerProfilePic/dinoProfilePic.jpg" },
+  "Strump":       { "direction": "", "avatar": "/playerProfilePic/strumpProfilePic.png" }
 }
