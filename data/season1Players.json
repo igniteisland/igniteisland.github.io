@@ -116,16 +116,16 @@
       "Asym":         { "role": "Scavenger",    "health": 10, "food": 10, "votes": [], "status": "Alive" }
     },
     "7": {
-      "Elymis":       { "role": "Assassin",     "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
-      "Psiphicode":   { "role": "Bard",         "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
+      "Elymis":       { "role": "Assassin",     "health": 10, "food": 10, "votes": ["Elymis"], "status": "Alive" }, 
+      "Psiphicode":   { "role": "Bard",         "health": 10, "food": 10, "votes": ["Psiphicode"], "status": "Alive" }, 
       "Strump":       { "role": "Blacksmith",   "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
       "Harv":         { "role": "Builder",      "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
-      "Sparklemouse": { "role": "Farmer",       "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
+      "Sparklemouse": { "role": "Farmer",       "health": 10, "food": 10, "votes": ["Sparklemouse"], "status": "Alive" }, 
       "Jay":          { "role": "Hunter",       "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
-      "Helios":       { "role": "Interrogator", "health": 10, "food": 9,  "votes": [], "status": "Alive" },
+      "Helios":       { "role": "Interrogator", "health": 10, "food": 9,  "votes": ["Helios"], "status": "Alive" },
       "Jam":          { "role": "Medic",        "health": 10, "food": 10, "votes": [], "status": "Alive" }, 
-      "HooZher":      { "role": "Priest",       "health": 10, "food": 10, "votes": [], "status": "Alive" },
-      "Asym":         { "role": "Scavenger",    "health": 10, "food": 10, "votes": [], "status": "Alive" }
+      "HooZher":      { "role": "Priest",       "health": 10, "food": 10, "votes": [], "status": "Alive", "pendant": 1},
+      "Asym":         { "role": "Scavenger",    "health": 10, "food": 10, "votes": [], "status": "Alive", "pendant": 1 }
     }
   }
 }
