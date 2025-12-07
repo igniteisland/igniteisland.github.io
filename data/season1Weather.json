@@ -5,5 +5,6 @@
   "Day 4": { "temperature": 17, "weather": "Freezing", "moon": "Waning Gibbous", "effects": "+0 Health to Everyone"},
   "Day 5": { "temperature": 76, "weather": "Clear", "moon": "Half Moon", "effects": "+1 Health/+1 Food to Everyone"},
   "Day 6": { "temperature": 73, "weather": "Clear", "moon": "Waning Crescent", "effects": "+1 Health to Everyone"},
-  "Day 7": { "temperature": 70, "weather": "Clear", "moon": "Blood Moon", "effects": "+1 Health to Everyone"}
+  "Day 7": { "temperature": 70, "weather": "Clear", "moon": "Blood Moon", "effects": "+1 Health to Everyone"},
+  "Day 8": { "temperature": 78, "weather": "Clear", "moon": "Waxing Crescent", "effects": "+1 Health to Everyone"}
 }
