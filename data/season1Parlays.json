@@ -42,5 +42,50 @@
             "2": { "parlay": "Weather will be Clear", "worth": 200, "hit": 1 }, 
             "3": { "parlay": "Hunter Finds Sif, The Great Grey Wolf", "worth": 350, "hit": 2 }
          } } 
+      },
+   "Day 8":
+      {
+      "Nexus": { 
+         "profilePic": "/playerProfilePic/nexusProfilePic.jpg", 
+         "parlayCard": { 
+            "1": { "parlay": "Priest has given Cross Pendant to Asym", "worth": 100, "hit": 0 }, 
+            "2": { "parlay": "Weather will be Clear", "worth": 200, "hit": 0 }, 
+            "3": { "parlay": "Hunter Finds Sif, The Great Grey Wolf", "worth": 350, "hit": 0 }
+         } }, 
+      "Lemon": { 
+         "profilePic": "/playerProfilePic/lemonProfilePic.png", 
+         "parlayCard": { 
+            "1": { "parlay": "Priest has given Cross Pendant to Asym", "worth": 100, "hit": 0 }, 
+            "2": { "parlay": "Weather will be Clear", "worth": 200, "hit": 0 }, 
+            "3": { "parlay": "Hunter Finds Sif, The Great Grey Wolf", "worth": 350, "hit": 0 }
+         } }, 
+      "Rambler": { 
+         "profilePic": "/playerProfilePic/ramblerProfilePic.png", 
+         "parlayCard": { 
+            "1": { "parlay": "Priest has given Cross Pendant to Asym", "worth": 100, "hit": 0 }, 
+            "2": { "parlay": "Weather will be Clear", "worth": 200, "hit": 0 }, 
+            "3": { "parlay": "Hunter Finds Sif, The Great Grey Wolf", "worth": 350, "hit": 0 }
+         } }, 
+      "Azdomiel": { 
+         "profilePic": "/playerProfilePic/defaultProfilePic.jpg", 
+         "parlayCard": { 
+            "1": { "parlay": "Priest has given Cross Pendant to Asym", "worth": 100, "hit": 0 }, 
+            "2": { "parlay": "Weather will be Clear", "worth": 200, "hit": 0 }, 
+            "3": { "parlay": "Hunter Finds Sif, The Great Grey Wolf", "worth": 350, "hit": 0 }
+         } }, 
+      "Wander": { 
+         "profilePic": "/playerProfilePic/wanderProfilePic.png", 
+         "parlayCard": { 
+            "1": { "parlay": "Priest has given Cross Pendant to Asym", "worth": 100, "hit": 0 }, 
+            "2": { "parlay": "Weather will be Clear", "worth": 200, "hit": 0 }, 
+            "3": { "parlay": "Hunter Finds Sif, The Great Grey Wolf", "worth": 350, "hit": 0 }
+         } }, 
+      "Dino": { 
+         "profilePic": "/playerProfilePic/dinoProfilePic.jpg", 
+         "parlayCard": { 
+            "1": { "parlay": "Priest has given Cross Pendant to Asym", "worth": 100, "hit": 0 }, 
+            "2": { "parlay": "Weather will be Clear", "worth": 200, "hit": 0 }, 
+            "3": { "parlay": "Hunter Finds Sif, The Great Grey Wolf", "worth": 350, "hit": 0 }
+         } } 
       }
 }
