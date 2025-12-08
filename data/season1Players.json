@@ -138,6 +138,17 @@
       "Jam":          { "role": "Medic",        "health": 1, "food": 10, "votes": ["Jam"], "status": "Alive", "pendant": 1 }, 
       "HooZher":      { "role": "Priest",       "health": 1, "food": 10, "votes": ["HooZher","Asym"], "status": "Kicked Off" },
       "Asym":         { "role": "Priest",    "health": 1, "food": 10, "votes": [], "status": "Alive" }
+    },
+    "9": {
+      "Elymis":       { "role": "Assassin",     "health": 4, "food": 10, "votes": [], "status": "Alive" },
+      "Psiphicode":   { "role": "Bard",         "health": 2, "food": 10, "votes": [], "status": "Alive" },
+      "Strump":       { "role": "Blacksmith",   "health": 2, "food": 10, "votes": [], "status": "Alive" },
+      "Harv":         { "role": "Builder",      "health": 2, "food": 10, "votes": [], "status": "Alive" },
+      "Sparklemouse": { "role": "Farmer",       "health": 2, "food": 10, "votes": [], "status": "Alive" },
+      "Jay":          { "role": "Hunter",       "health": 2, "food": 10, "votes": [], "status": "Alive" },
+      "Helios":       { "role": "Interrogator", "health": 2, "food": 9,  "votes": [], "status": "Alive" },
+      "Jam":          { "role": "Medic",        "health": 4, "food": 10, "votes": [], "status": "Alive" },
+      "Asym":         { "role": "Priest",       "health": 2, "food": 10, "votes": [], "status": "Alive", "pendant": 1 }
     }
   }
 }
