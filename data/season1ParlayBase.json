@@ -1,7 +1,7 @@
 {
    "HooZher": {"base": 350, "remove": 0},
-   "Nexus": {"base": 350, "remove": 0},
-   "Lemon": {"base": 600, "remove": 0},
+   "Nexus": {"base": 350, "remove": 1150},
+   "Lemon": {"base": 600, "remove": 1450},
    "Rambler": {"base": 350, "remove": 0},
    "Dino": {"base": 0, "remove": 0},
    "Wander": {"base": 0, "remove": 0},
