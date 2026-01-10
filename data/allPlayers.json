@@ -1,0 +1,102 @@
+{
+  "jay": {
+    "id": "jay",
+    "displayName": "Jay",
+    "profilePic": "/playerProfilePic/jayProfilePic.webp"
+  },
+  "hoozher": {
+    "id": "hoozher",
+    "displayName": "HooZher",
+    "profilePic": "/playerProfilePic/hoozherProfilePic.png"
+  },
+  "elymis": {
+    "id": "elymis",
+    "displayName": "Elymis",
+    "profilePic": "/playerProfilePic/elymisProfilePic.png"
+  },
+  "sparklemouse": {
+    "id": "sparklemouse",
+    "displayName": "Sparklemouse",
+    "profilePic": "/playerProfilePic/sparklemouseProfilePic.jpg"
+  },
+  "psiphicode": {
+    "id": "psiphicode",
+    "displayName": "Psiphicode",
+    "profilePic": "/playerProfilePic/psiProfilePic.png"
+  },
+  "harv": {
+    "id": "harv",
+    "displayName": "Harv",
+    "profilePic": "/playerProfilePic/harvProfilePic.png"
+  },
+  "helios": {
+    "id": "helios",
+    "displayName": "Helios",
+    "profilePic": "/playerProfilePic/heliosProfilePic.png"
+  },
+  "asym": {
+    "id": "asym",
+    "displayName": "Asym",
+    "profilePic": "/playerProfilePic/asymProfilePic.png"
+  },
+  "nexus": {
+    "id": "nexus",
+    "displayName": "Nexus",
+    "profilePic": "/playerProfilePic/nexusProfilePic.jpg"
+  },
+  "rambler": {
+    "id": "rambler",
+    "displayName": "Rambler",
+    "profilePic": "/playerProfilePic/ramblerProfilePic.png"
+  },
+  "lemon": {
+    "id": "lemon",
+    "displayName": "Lemon",
+    "profilePic": "/playerProfilePic/lemonProfilePic.png"
+  },
+  "jam": {
+    "id": "jam",
+    "displayName": "Jam",
+    "profilePic": "/playerProfilePic/jamProfilePic.jpg"
+  },
+  "azdomiel": {
+    "id": "azdomiel",
+    "displayName": "Azdomiel",
+    "profilePic": "/playerProfilePic/defaultProfilePic.jpg"
+  },
+  "dino": {
+    "id": "dino",
+    "displayName": "Dino",
+    "profilePic": "/playerProfilePic/dinoProfilePic.jpg"
+  },
+  "strump": {
+    "id": "strump",
+    "displayName": "Strump",
+    "profilePic": "/playerProfilePic/strumpProfilePic.png"
+  },
+  "wander": {
+    "id": "wander",
+    "displayName": "Wander",
+    "profilePic": "/playerProfilePic/wanderProfilePic.png"
+  },
+  "Vakrash": {
+    "id": "vakrash",
+    "displayName": "Vakrash",
+    "profilePic": "/playerProfilePic/wanderProfilePic.png"
+  },
+  "Thomas": {
+    "id": "thomas",
+    "displayName": "Thomas",
+    "profilePic": "/playerProfilePic/wanderProfilePic.png"
+  },
+  "jibbe": {
+    "id": "jibbe",
+    "displayName": "Jibbe",
+    "profilePic": "/playerProfilePic/wanderProfilePic.png"
+  },
+  "nartock": {
+    "id": "nartock",
+    "displayName": "nartock",
+    "profilePic": "/playerProfilePic/wanderProfilePic.png"
+  }
+}

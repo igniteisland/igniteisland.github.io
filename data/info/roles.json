@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "assassin",
+    "name": "Assassin",
+    "flavor": "A specialist role fit for survival that operates outside the normal rules of the Island.",
+    "sections": [
+      {
+        "title": "Core Rules",
+        "bullets": [
+          "If the Assassin is not kicked off, any player who voted for the Assassin that day becomes a valid target the following day.",
+          "Valid targets expire after that following day (they are not valid the day after).",
+          "Can assassinate a player who is in Prison unless it is a Sacred Prison."
+        ]
+      },
+      {
+        "title": "Assassination Stats",
+        "bullets": [
+          "Base Kill Chance: 25%",
+          "Base Survival Chance when attacked: 50%",
+          "If the target is poisoned, kill chance increases by +12.5% for each poison on that day (does not carry over).",
+          "May poison once per day: target loses 1 Health Point and 1 Food Point.",
+          "If given the Machete From Hell, base kill chance becomes 50% while the Assassin has it."
+        ]
+      },
+      {
+        "title": "Request an Assassination",
+        "bullets": [
+          "Players can request an assassination through the Game Hosts.",
+          "The Assassin only receives the target: \"You have been requested to assassinate PLAYER X\".",
+          "Only accepted requests cost the requester 2 Health Points regardless of outcome.",
+          "The Assassin may accept multiple requests, deny any request, and choose which to carry out.",
+          "Failed assassinations are not announced."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "PLAYER X has been Assassinated",
+          "ASSASSIN has received the MACHETE FROM HELL",
+          "Poisons are not announced and failed attempts are not announced."
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Shell",
+        "bullets": [
+          "ASSASSIN is poisoning PLAYER X",
+          "ASSASSIN has accepted request to kill PLAYER X",
+          "ASSASSIN is voting for PLAYER X",
+          "Interrogator Only (Day Before): ASSASSIN poisoned PLAYER X",
+          "Interrogator Only (Day Before): ASSASSIN accepted request to kill PLAYER X",
+          "Interrogator Only (Day Before): ASSASSIN had voted for PLAYER X",
+          "Only accepted requests are mentioned (requests made in general are not)."
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May poison again (same player or a different player)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bard",
+    "name": "Bard",
+    "flavor": "A performer who influences morale, weather, and storytelling.",
+    "sections": [
+      {
+        "title": "Abilities",
+        "bullets": [
+          "Play a song to increase the chances of a selected weather by 50%.",
+          "Selectable weather: Hot, Cold, Rainy, Clear, Heat Wave, or Freezing.",
+          "Weather chances become 75% with Teacher Buff and 100% with the Weather Rock from the Builder.",
+          "Harmonically raise morale: choose a survivor to gain 2 Health Points (can target yourself).",
+          "Tell any story to a survivor (commonly used for lying via DM)."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "BARD is playing SONG to make the Weather SELECTED WEATHER",
+          "BARD is playing SONG to boost the morale of PLAYER X",
+          "BARD is storytelling STORY"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Shell",
+        "bullets": [
+          "BARD is playing SONG to make the Weather SELECTED WEATHER",
+          "BARD is playing SONG to boost the morale of PLAYER X",
+          "BARD is storytelling to PLAYER X",
+          "BARD is voting for PLAYER X",
+          "Interrogator Only (Day Before): BARD voted for PLAYER X",
+          "Interrogator Only (Day Before): BARD told a story to PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May do one action again: weather song, morale boost, or storytelling.",
+          "If the same weather is selected again, chances do not increase (used mainly to swap to a different weather).",
+          "A second morale boost cannot target the same player as the first."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "blacksmith",
+    "name": "Blacksmith",
+    "flavor": "Makes weapons and armor to increase survivability across the Island.",
+    "sections": [
+      {
+        "title": "Armor",
+        "bullets": [
+          "Blacksmith has permanent armor: +45% survival chance when attacked.",
+          "With Teacher Buff, Blacksmith armor becomes 75%.",
+          "May give armor to any player: +45% survival chance (75% with Teacher Buff).",
+          "Granted armor expires the following day; Blacksmith chooses again each day.",
+          "Armor may be given to the same player on multiple days."
+        ]
+      },
+      {
+        "title": "Machete From Hell",
+        "bullets": [
+          "Can craft the Machete From Hell at any time.",
+          "Only 1 Machete From Hell can be crafted.",
+          "May be given to Assassin, Interrogator, or Nightguard.",
+          "Once given, Blacksmith cannot dictate how it is used unless it is returned willingly.",
+          "If the holder is killed or kicked off, the Machete From Hell returns to the Blacksmith."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "BLACKSMITH is giving armor to PLAYER X",
+          "BLACKSMITH has crafted the MACHETE FROM HELL",
+          "BLACKSMITH has given the MACHETE FROM HELL to PLAYER X"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Shell",
+        "bullets": [
+          "BLACKSMITH is giving armor to PLAYER X",
+          "BLACKSMITH has crafted the MACHETE FROM HELL",
+          "BLACKSMITH is giving the MACHETE FROM HELL to PLAYER X",
+          "BLACKSMITH is voting for PLAYER X",
+          "Interrogator Only (Day Before): BLACKSMITH voted for PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May hand out armor to another player (cannot be the same player as earlier that day)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "builder",
+    "name": "Builder",
+    "flavor": "A master craftsman and architect who shapes the Island’s survival through structures.",
+    "sections": [
+      {
+        "title": "Special Builds",
+        "bullets": [
+          "Special Builds take 1 day to build (start Day 1, functional Day 2).",
+          "Weather Rock: Bard dictates weather at 100% and may boost morale of 2 players.",
+          "Sacred Jail: prevents jailed player from using Secret Roles and voting; Assassin cannot assassinate; jailed player cannot be poisoned.",
+          "Taller Nightguard Tower: South area fully seen; Cannibal/Werewolf can only attack from North/East/West.",
+          "Lecture Hall: Teacher may buff 2 people (only this part changes)."
+        ]
+      },
+      {
+        "title": "Shelter",
+        "bullets": [
+          "At end of each day, Builder chooses a shelter to build for the next day (quality is based on Builder’s creativity).",
+          "Examples: tiny shack (Bad Shelter) vs mansion (Good Shelter)."
+        ]
+      },
+      {
+        "title": "Removal & Destruction",
+        "bullets": [
+          "Builder may immediately remove a Special Build or stop construction at any time.",
+          "May remove multiple Special Builds in a single day.",
+          "Builder’s structures are removed if the Builder is kicked off or killed."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "BUILDER has made SHELTER for The Island",
+          "BUILDER has started construction of SPECIAL BUILD",
+          "BUILDER has completed construction of the SPECIAL BUILD",
+          "BUILDER has demolished SPECIAL BUILD"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Shell",
+        "bullets": [
+          "BUILDER is making SHELTER for The Island Tomorrow",
+          "BUILDER is going to construct SPECIAL BUILD",
+          "BUILDER is going to demolish SPECIAL BUILD",
+          "BUILDER is voting for PLAYER X",
+          "Interrogator Only (Day Before): BUILDER voted for PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May start another Special Build on the same day they already started a Special Build."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cook",
+    "name": "Cook",
+    "flavor": "Creates meals and poisons as long as there is at least one Hunter or Fisher on the Island.",
+    "sections": [
+      {
+        "title": "Special Meals",
+        "bullets": [
+          "Gourmet Scorpion Stew: heal 5 people for +2 Health and +2 Food (must heal 5 if 5+ players).",
+          "DoorDashed Box Combo: arrives next day; grants immunity from being kicked off (not killed); 3-day cooldown; cannot be used in Top 4.",
+          "Shura’s 2am Spaghetti: takes effect next day; grants +45% chance to survive an attack."
+        ]
+      },
+      {
+        "title": "Poison",
+        "bullets": [
+          "May poison someone for 1 Health Point and 2 Hunger Points (damage)."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "COOK has made SPECIAL MEAL",
+          "COOK has ordered The DOORDASHED BOX COMBO",
+          "COOK has given GOURMET SCORPION STEW to SELECTED PLAYERS",
+          "COOK has given SPECIAL MEAL to PLAYER X"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Shell",
+        "bullets": [
+          "COOK is giving GOURMET SCORPION STEW to SELECTED PLAYERS",
+          "COOK is giving SPECIAL MEAL to PLAYER X",
+          "COOK is ordering DOORDASHED BOX COMBO",
+          "COOK is poisoning PLAYER X",
+          "COOK is voting for PLAYER X",
+          "Interrogator Only (Day Before): COOK voted for PLAYER X",
+          "Interrogator Only (Day Before): COOK poisoned PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May poison again, but cannot poison the same person they poisoned that day.",
+          "May make another Special Meal, but cannot order another Box Combo if it is ordered or on cooldown."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "farmer",
+    "name": "Farmer",
+    "flavor": "Grows Special Crops with success rates and weather modifiers to grant powerful effects.",
+    "sections": [
+      {
+        "title": "Special Crops",
+        "bullets": [
+          "Sneaky Spinach (50%): immune to Cannibal/Werewolf nighttime attacks; Assassin can see through it; protects against nothing else.",
+          "Lively Lemons (70%): grants an extra action for the day (Farmer may only use two Lively Lemons in a day).",
+          "Tasty Tangerine (70%): replenish 3 Health and 3 Hunger.",
+          "Trippy Tulips (70%): prevents the consumer from using their role or voting for the day.",
+          "Golden Apple (100%): invincible for a day (immune to death, damage, and being kicked off) and restores all Health and Food; rots in Top 5; takes 3 Active days to grow; only 1 can be grown."
+        ]
+      },
+      {
+        "title": "Storage",
+        "bullets": [
+          "May store 1 Special Crop for a later date.",
+          "If a crop is stored, the Farmer may still plant and grow another crop that day and use both."
+        ]
+      },
+      {
+        "title": "Weather Modifiers",
+        "bullets": [
+          "Hot: +10% to base chance",
+          "Cold / Rainy / Clear: no change",
+          "Freezing or Heat Wave: −20% to base chance",
+          "Old McDonald’s Overalls guarantees a successful harvest regardless of weather."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "FARMER has successfully grown SPECIAL CROP",
+          "FARMER has failed to grow SPECIAL CROP",
+          "FARMER has given SPECIAL CROP to PLAYER X",
+          "FARMER has used SPECIAL CROP",
+          "FARMER has started growing the GOLDEN APPLE",
+          "FARMER has received \"Old McDonald's Overalls\""
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Shell",
+        "bullets": [
+          "FARMER is growing SPECIAL CROP",
+          "FARMER is giving SPECIAL CROP to PLAYER X",
+          "FARMER is using SPECIAL CROP",
+          "FARMER is voting for PLAYER X",
+          "Interrogator Only (Day Before): FARMER voted for PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May grow a Special Crop again and give/use it that same day or save it.",
+          "Does not speed up Golden Apple growth."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fisher",
+    "name": "Fisher",
+    "flavor": "Fishes for random Special Items with rarity, storage, and weather modifiers.",
+    "sections": [
+      {
+        "title": "Special Items",
+        "bullets": [
+          "Luminous Seashell (15%): see a player’s actions and vote on the day it is used.",
+          "Gleaming Sardine Scale (15%): +50% chance to survive an attack (not boosted by Teacher Buff).",
+          "Cursed Cuttlefish Ink (15%): blinds the target (cannot use role or vote).",
+          "The Black Pearl (15%): either summon a Sea Beast arriving the following day (choose on Rainy day) OR gain +2 Health but remove all protection including Priest Pendant.",
+          "Moby Dick’s Harpoon (10%): slay any Sea Beast; only 1 can be found."
+        ]
+      },
+      {
+        "title": "Storage & Food Dependency",
+        "bullets": [
+          "May store 1 Special Item for later and still fish again the next day.",
+          "If an item is stored, Fisher may use both the stored item and the newly caught item that day.",
+          "Fisher depends on Cook for food; if no Cook exists, food is not gained from Fisher (but fishing for items still works)."
+        ]
+      },
+      {
+        "title": "Weather Modifiers",
+        "bullets": [
+          "Rainy: +10% to Moby Dick’s Harpoon only",
+          "Hot / Cold / Freezing: no change",
+          "Heat Wave or Clear: −5% chance to all items",
+          "Jeremy Wade’s Net guarantees a catch regardless of weather."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "FISHER has caught SPECIAL ITEM",
+          "FISHER didn't catch anything",
+          "FISHER has given SPECIAL ITEM to PLAYER X",
+          "FISHER has used SPECIAL ITEM",
+          "FISHER has used the LUMINOUS SEASHELL",
+          "FISHER has used MOBY DICK'S HARPOON to slay SEA BEAST",
+          "FISHER has gained the power of the SEA BEAST"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Seashell",
+        "bullets": [
+          "FISHER caught SPECIAL ITEM",
+          "FISHER is giving SPECIAL ITEM to PLAYER X",
+          "FISHER is using SPECIAL ITEM",
+          "FISHER is summoning SELECTED SEA BEAST",
+          "FISHER is voting for PLAYER X",
+          "Interrogator Only (Day Before): FISHER voted for PLAYER X",
+          "Interrogator Only (Day Before): FISHER used LUMINOUS SEASHELL on PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May cast the line again to try to get another item; if caught, it may be used or saved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "flavor": "Hunts for Special Animals with unique powers, storage rules, and weather modifiers.",
+    "sections": [
+      {
+        "title": "Special Animals",
+        "bullets": [
+          "Ethereal Eagle (15%): choose who the Eagle protects at night from Cannibal/Werewolf.",
+          "Envious Fox (15%): allows the Hunter to tell a story like the Bard.",
+          "Mystical Owl (15%): see detailed voting and attacks for the day (who votes for who, and who will be attacked).",
+          "Jinxed Jackrabbit (15%): jinx a player (cannot use role or vote).",
+          "Sif, The Great Grey Wolf: protects the Hunter from Cannibal/Werewolf/Assassin at 100% and has a 100% base chance to kill the attacker on the night of the attack."
+        ]
+      },
+      {
+        "title": "Storage & Food Dependency",
+        "bullets": [
+          "May store 1 Special Animal for later and still hunt again the next day.",
+          "If an animal is stored, Hunter may use both the stored animal and the newly found animal that day.",
+          "Hunter depends on Cook for food; if no Cook exists, food is not gained from Hunter (but hunting still works)."
+        ]
+      },
+      {
+        "title": "Weather Modifiers",
+        "bullets": [
+          "Clear: +10% to Sif, The Great Grey Wolf only",
+          "Hot / Cold / Heat Wave: no change",
+          "Freezing or Rainy: −5% chance to all animals",
+          "Robin Hood’s Hat guarantees a successful hunt regardless of weather."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "HUNTER has found SPECIAL ANIMAL",
+          "HUNTER didn't find anything",
+          "HUNTER has given SPECIAL ANIMAL to PLAYER X",
+          "HUNTER has used SPECIAL ANIMAL",
+          "HUNTER has used ENVIOUS FOX",
+          "SIF THE GREAT GREY WOLF has killed ATTACKER X"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Seashell",
+        "bullets": [
+          "HUNTER found SPECIAL ANIMAL",
+          "HUNTER is giving SPECIAL ANIMAL to PLAYER X",
+          "HUNTER is using SPECIAL ANIMAL",
+          "HUNTER is voting for PLAYER X",
+          "Interrogator Only (Day Before): HUNTER voted for PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May hunt again; if another animal is found it may be used or saved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "interrogator",
+    "name": "Interrogator",
+    "flavor": "Interrogates players for insight, can audit votes, and may execute with the Machete From Hell.",
+    "sections": [
+      {
+        "title": "Interrogation",
+        "bullets": [
+          "May interrogate one player each day.",
+          "Base 50% chance of success.",
+          "Interrogating a jailed player: 70% chance of success.",
+          "Teacher Buff: 100% chance of success."
+        ]
+      },
+      {
+        "title": "Successful Interrogation Reveals",
+        "bullets": [
+          "What a player’s actions will be for that day.",
+          "Who that player is voting for that day.",
+          "What actions that player did the day before.",
+          "Who that player voted for the day before.",
+          "If the player used a Secret Role the day before (reveals only that a Secret Role was used, not which one)."
+        ]
+      },
+      {
+        "title": "Vote Audit (3 Day Cooldown)",
+        "bullets": [
+          "Option A: public vote — everyone sees exactly who votes for who; lies cannot interfere.",
+          "Option B: private vote — only Interrogator sees; can be manipulated by lies."
+        ]
+      },
+      {
+        "title": "Machete From Hell Execution",
+        "bullets": [
+          "If given the Machete From Hell, may execute the player voted off that day.",
+          "Decision is made that night after the vote-off is confirmed.",
+          "Cannot execute previously kicked off players.",
+          "Executed players cannot be brought back from the dead."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "INTERROGATOR will be interrogating PLAYER X",
+          "INTERROGATOR has called for a VOTE AUDIT. All votes will be public.",
+          "INTERROGATOR has called for a VOTE AUDIT. All votes will be shown to the INTERROGATOR alone.",
+          "INTERROGATOR has received the MACHETE FROM HELL",
+          "INTERROGATOR has executed KICKED OFF PLAYER. KICKED OFF PLAYER is bared from returning on The Island."
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Seashell",
+        "bullets": [
+          "INTERROGATOR will be interrogating PLAYER X",
+          "INTERROGATOR will be calling for a VOTE AUDIT",
+          "INTERROGATOR will be executing KICKED OFF PLAYER",
+          "INTERROGATOR is voting for PLAYER X",
+          "Interrogator Only (Day Before): INTERROGATOR voted for PLAYER X",
+          "In the case of a personal vote audit, all that information is shared if the Interrogator is interrogated or given the Luminous Seashell."
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May interrogate another player on the same day (cannot be the same player as earlier that day)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jailor",
+    "name": "Jailor",
+    "flavor": "A classic protector who can jail players and force Prisoner’s Dilemmas.",
+    "sections": [
+      {
+        "title": "Jail",
+        "bullets": [
+          "May jail 1 player each day; they are released the next day.",
+          "Jailed player cannot perform their role; Wizard and Mimic can still do Secret Role abilities unless it is a Sacred Jail.",
+          "A player cannot be jailed two days in a row.",
+          "Jailed player is protected from Cannibal and Werewolf attacks.",
+          "Assassin can still assassinate a jailed player unless it is a Sacred Jail.",
+          "Jailed player can still be poisoned and healed (unless Sacred Jail)."
+        ]
+      },
+      {
+        "title": "Sacred Jail (Builder Upgrade)",
+        "bullets": [
+          "Wizard and Mimic cannot use Secret Roles while jailed.",
+          "Assassin cannot break in to assassinate a jailed player.",
+          "Jailed player cannot vote.",
+          "Jailed player cannot be poisoned."
+        ]
+      },
+      {
+        "title": "Prisoner’s Dilemma (3 Day Cooldown)",
+        "bullets": [
+          "Pick 2 non-jailed players to face a dilemma (cannot reuse the same pair).",
+          "Each chooses Cooperate or Defect; only Jailor is notified of choices.",
+          "Both Cooperate: no negative repercussions.",
+          "One Cooperate / one Defect: the Cooperator cannot vote that day; Defector unchanged.",
+          "Both Defect: votes against both players are doubled for the day.",
+          "If a player in a Prisoner’s Dilemma is successfully interrogated or checked via Luminous Seashell, their choice is relayed to the Interrogator.",
+          "This ability cannot be used in the Top 5."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "JAILOR has jailed PLAYER X",
+          "PLAYER X and PLAYER Y have been put in a Prisoner's Dilemma by JAILOR",
+          "PLAYER X and Y have cooperated",
+          "PLAYER X has cooperated while PLAYER Y has defected",
+          "PLAYER X and PLAYER Y have defected. All votes towards these players will now be doubled for today."
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Seashell",
+        "bullets": [
+          "JAILOR will jail PLAYER X",
+          "JAILOR will place PLAYER X and PLAYER Y in a Prisoner's Dilemma",
+          "JAILOR is voting for PLAYER X",
+          "Interrogator Only (Day Before): JAILOR voted for PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May jail another player in the same day."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "medic",
+    "name": "Medic",
+    "flavor": "Heals and poisons players and is the Island’s safeguard against disease.",
+    "sections": [
+      {
+        "title": "Heal & Poison Rules",
+        "bullets": [
+          "May heal and poison two different players on the same day.",
+          "Cannot heal/poison the same person twice on the same day.",
+          "Cannot poison 2 different people in the same day unless there is an extra action.",
+          "May do Heal/Heal or Heal/Poison."
+        ]
+      },
+      {
+        "title": "Disease Protection",
+        "bullets": [
+          "Medic is the only safeguard against diseases that occur on the Island.",
+          "Without the Medic, players can become ill from unwanted pathogens."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "MEDIC has cured The Island of DISEASE X",
+          "MEDIC has cured PLAYER X of DISEASE X"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Seashell",
+        "bullets": [
+          "MEDIC will heal PLAYER X",
+          "MEDIC will poison PLAYER X",
+          "MEDIC will cure PLAYER X",
+          "MEDIC will cure THE ISLAND",
+          "MEDIC is voting for PLAYER X",
+          "Interrogator Only (Day Before): MEDIC voted for PLAYER X",
+          "Interrogator Only (Day Before): MEDIC healed PLAYER X",
+          "Interrogator Only (Day Before): MEDIC poisoned PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May heal or poison again on the same day, but it must be a unique player who was not already poisoned by the Medic that day."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nightguard",
+    "name": "Nightguard",
+    "flavor": "The main protector against Cannibal and Werewolf attacks, watching directions and reacting to threats.",
+    "sections": [
+      {
+        "title": "Protection & Sightlines",
+        "bullets": [
+          "Initially chooses 1 of 4 directions to watch each night.",
+          "Has a passive 35% chance of surviving an attack regardless of direction.",
+          "If the correct direction is chosen and an attack occurs, Nightguard is informed who they saw and whether the attacker was Cannibal.",
+          "If the attacker was Werewolf, Nightguard only learns they saw a Werewolf (identity not revealed).",
+          "It is up to Nightguard to tell the Island; the Island may only be notified of an attack and the secret role, not identity."
+        ]
+      },
+      {
+        "title": "Lies & Announcements",
+        "bullets": [
+          "Nightguard can be lied to.",
+          "An announcement may go out if Nightguard is told an attack occurred, or none if told there was no attack."
+        ]
+      },
+      {
+        "title": "Machete From Hell",
+        "bullets": [
+          "If given the Machete From Hell, Nightguard can attempt to defend the attacked player.",
+          "Defense success chance: 50%, assuming Nightguard guessed the correct direction (cannot defend outside sightline)."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "THE NIGHTGUARD has spotted the CANNIBAL",
+          "THE NIGHTGUARD has spotted the WEREWOLF",
+          "THE NIGHTGUARD has protected PLAYER X from CANNIBAL",
+          "THE NIGHTGUARD has protected PLAYER X from WEREWOLF",
+          "THE NIGHTGUARD was unable to protected PLAYER X from CANNIBAL",
+          "THE NIGHTGUARD was unable to protected PLAYER X from WEREWOLF",
+          "THE NIGHTGUARD has received the MACHETE FROM HELL"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Shell",
+        "bullets": [
+          "NIGHTGUARD is protecting the DIRECTION NAME",
+          "NIGHTGUARD saw PLAYER X as the CANNIBAL",
+          "NIGHTGUARD saw the WEREWOLF",
+          "NIGHTGUARD is voting for PLAYER X",
+          "Interrogator Only (Day Before): NIGHTGUARD saw PLAYER X as the CANNIBAL",
+          "Interrogator Only (Day Before): NIGHTGUARD voted for PLAYER X",
+          "Interrogator Only (Day Before): NIGHTGUARD protected DIRECTION NAME"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May protect another direction (including the same direction already chosen)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "priest",
+    "name": "Priest",
+    "flavor": "Wields a holy relic to protect from poison and return players to the Island.",
+    "sections": [
+      {
+        "title": "Cross Pendant",
+        "bullets": [
+          "May give a Cross Pendant to a player each day (including self).",
+          "Pendant lasts one day; a new player must be chosen each day.",
+          "Same player cannot receive the Cross Pendant two days in a row.",
+          "Pendant grants immunity from all poisons and taking damage.",
+          "Pendant wearer cannot be killed by Assassin, Cannibal, Werewolf, or other events unless explicitly stated to cancel the Pendant.",
+          "If placed on the Wizard, the Wizard cannot cast spells that day."
+        ]
+      },
+      {
+        "title": "Resurrection",
+        "bullets": [
+          "May bring back a player no longer on the Island if they are not restricted from returning.",
+          "Resurrection has a 3-day cooldown."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "PLAYER X has been RESSURECTED/BROUGHT BACK",
+          "PLAYER X has been given the CROSS PENDANT"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Shell",
+        "bullets": [
+          "PRIEST is given the CROSS PENDANT to PLAYER X",
+          "PRIEST is voting for PLAYER X",
+          "Interrogator Only (Day Before): PRIEST voted for PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "Receives a second Cross Pendant to hand out that day.",
+          "The same restriction still applies: the Pendant cannot be given to the same player twice in a row."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scavenger",
+    "name": "Scavenger",
+    "flavor": "Finds berries and powerful artifacts with rarity; may hold them until the Top 4.",
+    "sections": [
+      {
+        "title": "Special Artifacts (10% each)",
+        "bullets": [
+          "Alternate Timeline: allows the Scavenger to enter alternate timelines where events may have played out differently.",
+          "The Equalizer: allows the Scavenger to equalize the Island.",
+          "The Summoning Key: allows the Scavenger to summon a Great One.",
+          "Celium Piece: allows the Scavenger to harness the power of one of the Celium Pieces."
+        ]
+      },
+      {
+        "title": "Holding Items",
+        "bullets": [
+          "Scavenger may hold artifacts and use them later.",
+          "Artifacts are taken away in the Top 4.",
+          "Indiana Jones Satchel increases chance to find artifacts by +5%."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "SCAVENGER has failed to find an Artifact",
+          "SCAVENGER has found SPECIAL ARTIFACT"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Shell",
+        "bullets": [
+          "SCAVENGER has found SPECIAL ARTIFACT and it does: DESCRIPTION",
+          "SCAVENGER is voting for PLAYER X",
+          "Interrogator Only (Day Before): SCAVENGER found SPECIAL ARTIFACT and it does: DESCRIPTION",
+          "Interrogator Only (Day Before): SCAVENGER voted for PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May search again for an artifact."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tailor",
+    "name": "Tailor",
+    "flavor": "Keeps the Island healthy by making weather-appropriate clothes and special outfits for key roles.",
+    "sections": [
+      {
+        "title": "Clothing Rules",
+        "bullets": [
+          "Makes clothes for the whole Island every day.",
+          "Goal is to match clothing to the weather; mistakes can cause negative consequences.",
+          "Tailor makes clothing not on the day of, but the day before (special clothes can be made day-of).",
+          "If Tailor is removed, the last clothing made remains, but decays in 2 days and increases chances of disease."
+        ]
+      },
+      {
+        "title": "Special Clothing Options",
+        "bullets": [
+          "Old McDonald's Overalls: guarantees successful Farmer harvest regardless of weather.",
+          "Jeremy Wade's Net: guarantees Fisher catch regardless of weather.",
+          "Robin Hood's Hat: guarantees Hunter successful hunt regardless of weather.",
+          "Indiana Jones Satchel: increases Scavenger artifact odds by +5%."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "TAILOR has made CLOTHES for The Island",
+          "TAILOR has made SPECIAL CLOTHES for PLAYER X"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Seashell",
+        "bullets": [
+          "TAILOR is making CLOTHES for Tomorrow",
+          "TAILOR is making SPECIAL CLOTHES for PLAYER X",
+          "TAILOR is voting for PLAYER X",
+          "Interrogator Only (Day Before): TAILOR voted for PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May make another piece of Special Clothing for another role."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "teacher",
+    "name": "Teacher",
+    "flavor": "A resource of knowledge who can replace roles and apply a powerful buff.",
+    "sections": [
+      {
+        "title": "Teach a Role (3 Day Cooldown)",
+        "bullets": [
+          "May teach any role to any player regardless of whether the role is currently on the Island.",
+          "Teaching replaces the player’s old role (consent does not matter).",
+          "A taught role cannot be used that same day.",
+          "If the player’s previous role already took action that day, those actions still remain."
+        ]
+      },
+      {
+        "title": "Teacher Buff Rules",
+        "bullets": [
+          "May buff a player; buff ends after the day is over.",
+          "Cannot buff the same player twice in a row."
+        ]
+      },
+      {
+        "title": "Teacher Buff Effects",
+        "bullets": [
+          "Prevents false information from being given to the survivor.",
+          "Increase the Heal/Poison of the player applying it by 1.",
+          "Increases healing applied to a player by 1.",
+          "Decreases poison applied to a player by 1.",
+          "Increases Blacksmith armor applied to 75%.",
+          "Makes Interrogation 100% successful.",
+          "Increases chances of a successful assassination by +12.5%.",
+          "Increases Farmer/Fisher/Hunter/Scavenger chances by +10%."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "TEACHER has taught ROLE to PLAYER X",
+          "TEACHER has buffed PLAYER X"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Seashell",
+        "bullets": [
+          "TEACHER will buff PLAYER X",
+          "TEACHER will teach ROLE to PLAYER X",
+          "TEACHER is voting for PLAYER X",
+          "Interrogator Only (Day Before): TEACHER voted for PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "May buff another player (still cannot buff the same player twice in a row)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cannibal-secret",
+    "name": "Cannibal",
+    "flavor": "Secret Role — Choose a side of the Island to attack from and attempt to kill a target.",
+    "sections": [
+      {
+        "title": "Rules",
+        "bullets": [
+          "The Cannibal may choose to attack from North, East, West, or South and select a target to kill.",
+          "The Cannibal does not have to attack every day.",
+          "If the Cannibal does not attack for 2 consecutive days, the Cannibal role is lost.",
+          "If the target is protected in some way, the attempt is announced as a failed attempt.",
+          "If the Nightguard does not spot the attempt, the Cannibal's identity remains secret (unless revealed through interrogation)."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "PLAYER X has been killed by the CANNIBAL",
+          "CANNIBAL has failed to kill PLAYER X"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation",
+        "bullets": [
+          "CANNIBAL PLAYER NAME used their Secret Role yesterday"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "No extra action can be taken with this Secret Role."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mimic-secret",
+    "name": "Mimic",
+    "flavor": "Secret Role — Copy the ability of any survivor currently on the Island.",
+    "sections": [
+      {
+        "title": "Rules",
+        "bullets": [
+          "The Mimic may use an ability from any survivor currently on the Island.",
+          "The Mimic cannot mimic the same role twice in a row.",
+          "The Mimic can mimic while in Jail."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "MIMICKED ROLE did ACTION"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation",
+        "bullets": [
+          "MIMIC PLAYER NAME used their Secret Role yesterday"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "No extra action can be taken with this Secret Role."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "werewolf-secret",
+    "name": "Werewolf",
+    "flavor": "Secret Role — Can attempt to kill on the Full Moon or Blood Moon by choosing an attack side.",
+    "sections": [
+      {
+        "title": "Rules",
+        "bullets": [
+          "The Werewolf may kill a chosen target on the Full Moon or Blood Moon only.",
+          "The Werewolf chooses the side to attack from: North, East, West, or South.",
+          "If the target is protected in some way, the attempt is announced as a failed attempt.",
+          "Even if the Werewolf is spotted, the Werewolf's identity remains secret."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "PLAYER X has been killed by the WEREWOLF",
+          "WEREWOLF has failed to kill PLAYER X"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation",
+        "bullets": [
+          "WEREWOLF PLAYER NAME used their Secret Role yesterday"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "No extra action can be taken with this Secret Role."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wizard-secret",
+    "name": "Wizard",
+    "flavor": "Secret Role — Cast spells to help or threaten the Island. Can cast one Basic spell and one Advanced spell in the same day.",
+    "sections": [
+      {
+        "title": "Core Rules",
+        "bullets": [
+          "The Wizard has a variety of spells to help or threaten the Island.",
+          "The Wizard can bypass being jailed.",
+          "The Wizard cannot cast spells if blocked by the Priest’s pendant effect (if applicable) or if the entire Island is weakened by an event.",
+          "The Wizard may cast 1 Basic Spell and 1 Advanced Spell in the same day."
+        ]
+      },
+      {
+        "title": "Basic Spells",
+        "bullets": [
+          "Poison Mist: Target loses 3 HP and 3 Food.",
+          "Weaken: Prevents a survivor from performing their role and prevents them from voting.",
+          "Great Heal: Target gains 3 HP and 3 Food.",
+          "False Voting: Cast an additional vote."
+        ]
+      },
+      {
+        "title": "Advanced Spells",
+        "bullets": [
+          "Role Switch: Permanently switch 2 players' roles. Cooldown: 3 days. (Roles being switched must still exist on the Island when cast.)",
+          "Immunity: Grants immunity to being kicked off the Island. Cooldown: 4 days.",
+          "Revive: Brings back a person who was killed. Cooldown: 3 days.",
+          "Return: Brings back a person who was kicked off. Cooldown: 3 days.",
+          "Charm: Takes full control of a player (their actions and their vote)."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "PLAYER X has been weakened",
+          "PLAYER X and PLAYER Y's roles have been swapped",
+          "PLAYER X has been granted IMMUNITY",
+          "PLAYER X has been REVIVED/BROUGHT BACK",
+          "A POWERFUL CHARM has been broken (announced the following day after Charm was cast)"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation",
+        "bullets": [
+          "WIZARD PLAYER NAME used their Secret Role yesterday"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "No extra action can be taken with this Secret Role."
+        ]
+      }
+    ]
+  }
+]

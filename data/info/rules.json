@@ -1,0 +1,500 @@
+{
+  "id": "island-rules",
+  "title": "The Island Rules",
+  "version": "1.16",
+  "sections": [
+    {
+      "id": "summary",
+      "title": "Summary",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The Island is a game where the last one standing wins. Unless explicitly stated, every day someone will be kicked off the Island by a vote of the survivors on the Island. The Island has mutual relationships such as the Hunter and the Cook, and competitive relationships like the Hunter and the Fisher. There are 4 Secret Roles that have varying levels of impact on the Island. There are immediate threats like the Cannibal or Werewolf, and roles that are highly dependent on the user such as the Wizard and Mimic. Your goal does not have to be to get rid of the Secret Roles, as the Secret Roles will be irrelevant once there are 5 people left on the Island. However, getting rid of the Secret Roles can greatly increase your chances of survival. The weather, survivors, special events, and even the Island itself are what you are playing against."
+        }
+      ]
+    },
+    {
+      "id": "day-rules",
+      "title": "Rules for the Days",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Day 1: Day 1 is an important day in determining how the rest of the Island will usually be played. The Moon is chosen by the previous Island's Winner to begin the Moon Cycle. No one will be voted off on Day 1, however death is still a possibility.",
+            "Normal Day: On normal days, a vote will take place to vote someone off the Island for that day (you can even vote on yourself).",
+            "The Sixth Day: The Sixth Day on the Island is set aside for Special Events. There is a chance that no vote will be held that day, but this is not guaranteed.",
+            "Ties: In the case of a tie, a revote will take place. If there is another tie, no one will be kicked off and the next day will begin.",
+            "Death: If the person that was going to be kicked off is killed, the day will continue to the next.",
+            "Final 2 Voting: Only those who were kicked off will be able to vote on the Final 2 to decide a winner. If there is a tie, the dead will break the tie by a majority vote.",
+            "Final 3 Death: There is a possibility that the game can end with a vote and a death in the Final 3. If this occurs, the winner will skip the Final 2 Voting rule.",
+            "If you don't vote: Not voting for a day will automatically vote for the last person you voted for. If you don't vote for 2 days straight, your vote no longer gets counted."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-food",
+      "title": "Health & Food Rules",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Each player has two tracked resources:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Health Points (HP): starts at 10",
+            "Food Points (Food): starts at 10"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Stat limits: HP and Food are always kept within 0–10. They cannot exceed 10 and cannot drop below 0. After each update window, values are clamped into the 0–10 range."
+        },
+        {
+          "type": "text",
+          "text": "Daily Timeline: There are two update windows each day."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Start of Day (automatic HP changes)",
+            "After Voting Ends (End-of-Day Resolution: HP + Food changes)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start-of-day-hp",
+      "title": "Start of Day — Automatic HP Updates",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "At the start of each day, update HP in this order:"
+        },
+        {
+          "type": "text",
+          "text": "A) Starvation Damage (based on last night’s Food)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "If a player ended the previous day at 0 Food, they are starving.",
+            "A starving player loses −1 HP at the start of the day.",
+            "This is based on the player’s Food from the end of last day (since Food updates after voting)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "B) Weather + Structure + Clothing HP Modifier"
+        },
+        {
+          "type": "text",
+          "text": "After starvation damage, apply the environment HP modifier for the day based on Structure (Good/Bad), Clothing (Good/Bad), and Weather."
+        },
+        {
+          "type": "table",
+          "columns": ["Structure", "Clothing", "Weather", "HP Change"],
+          "rows": [
+            ["Good", "Good", "Clear / Rainy / Hot / Cold", "+1"],
+            ["Good", "Good", "Heat Wave / Freezing", "0"],
+            ["Good", "Bad", "Clear", "+1"],
+            ["Good", "Bad", "Rainy / Hot / Cold", "0"],
+            ["Good", "Bad", "Heat Wave / Freezing", "−1"],
+            ["Bad", "Good", "Clear", "+1"],
+            ["Bad", "Good", "Rainy / Hot / Cold / Heat Wave / Freezing", "0"],
+            ["Bad", "Bad", "Clear", "0"],
+            ["Bad", "Bad", "Rainy / Hot / Cold / Heat Wave / Freezing", "−1"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "C) 2-Day Food Streak HP Modifier (Non-overlapping)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "If food was found for 2 consecutive days, then all players gain +1 HP today.",
+            "If no food was found for 2 consecutive days, then all players lose −1 HP today."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Non-overlapping rule (reset): Once a 2-day pair triggers a bonus/penalty, the streak resets. The next streak must be built from scratch."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Example: Food found Day 1 and Day 2 → +1 HP on Day 3, then the streak resets.",
+            "Example: No food found Day 4 and Day 5 → −1 HP on Day 6, then the streak resets."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D) Clamp"
+        },
+        {
+          "type": "list",
+          "items": [
+            "After all Start-of-Day HP changes, clamp HP to 0–10."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "HP can change at the start of the day, but death is only checked after End-of-Day Resolution. This avoids dying mid-day from automatic modifiers."
+        }
+      ]
+    },
+    {
+      "id": "end-of-day-resolution",
+      "title": "After Voting Ends — End-of-Day Resolution (HP + Food)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "After voting ends, resolve all player-driven effects and daily Food consumption in this order (per player):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Apply all negative effects first: poisons/damage, any Food loss from effects, and daily Food consumption (if applicable).",
+            "Apply all positive effects second: heals/meals/bonuses and any Food gain from meals/effects.",
+            "Clamp HP and Food to 0–10.",
+            "Death check: If a player’s HP is 0 after all end-of-day calculations, the player is dead. A player does not die mid-calculation if healing later would bring them above 0."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-rules",
+      "title": "Food Rules (Resolved After Voting Ends)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Daily Consumption"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Each day, players attempt to consume 1 Food.",
+            "If food is found that day: Food does not decrease (0 change from consumption).",
+            "If food is NOT found that day: Food decreases by −1 from consumption."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Food cannot exceed 10. Any Food gained is clamped to 10."
+        }
+      ]
+    },
+    {
+      "id": "heals-poisons",
+      "title": "Heals & Poisons (Resolved After Voting Ends)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Healing Effects"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bard (Morale Boost): +2 HP, +0 Food",
+            "Gourmet Scorpion Stew: +2 HP, +2 Food",
+            "Medic (Heal): +2 HP, +1 Food",
+            "Tasty Tangerine: +3 HP, +3 Food",
+            "Wizard (Heal): +3 HP, +3 Food"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Poison Effects (Damage)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Assassin (Poison): −1 HP, −1 Food",
+            "Cook (Poison): −1 HP, −2 Food",
+            "Medic (Poison): −2 HP, −1 Food",
+            "Wizard (Poison): −3 HP, −3 Food"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Reminder: During End-of-Day Resolution, apply negatives first, then positives, then clamp, then do the death check."
+        }
+      ]
+    },
+    {
+      "id": "lies-storytelling",
+      "title": "Lies & Storytelling",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Who can create false information"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bard: Storytelling",
+            "Hunter: Envious Fox"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "What Storytelling does"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Storytelling lets you send one direct message to a chosen survivor through the Game Hosts.",
+            "The message can be a lie, a truth, or flavor.",
+            "The recipient and the content are never revealed publicly."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "What gets announced publicly"
+        },
+        {
+          "type": "list",
+          "items": [
+            "BARD is storytelling STORY",
+            "HUNTER has used ENVIOUS FOX"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "The Hosts choose the exact wording of public announcements to preserve secrecy and consistency."
+        },
+        {
+          "type": "text",
+          "text": "What a lie can and cannot do"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Allowed: Overwriting private information systems (Nightguard sighting info, Interrogation results, Assassin valid-target info, Assassin assassination request list).",
+            "Not allowed: Faking global reality (no fake global announcements and no fake mechanical effects)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Common Lie Examples (high level)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nightguard: Lies can replace what the Nightguard is told (including causing an announcement or suppressing one).",
+            "Interrogator: Lies can replace interrogation results, including success/failure and reported actions/votes/secret-role usage.",
+            "Assassin voter list: Lies can replace some names the Assassin receives as having voted for them (without creating real mechanical validity).",
+            "Assassin requests: Fake requests do not delete real requests; choosing a fake request results in nothing happening."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-cooldowns",
+      "title": "Day Cooldowns",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Some abilities have day-based cooldowns (example: 3-day cooldown)."
+        },
+        {
+          "type": "text",
+          "text": "When your cooldown ends"
+        },
+        {
+          "type": "list",
+          "items": [
+            "If you use an ability on Day D with a cooldown of C days, the earliest day you can use it again is: Next Available Day = D + C.",
+            "Example: A 3-day cooldown used on Day 1 becomes available again on Day 4 (1 + 3 = 4).",
+            "Example: A 3-day cooldown used on Day 4 becomes available again on Day 7.",
+            "Example: A 2-day cooldown used on Day 6 becomes available again on Day 8."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Cooldown ownership"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cooldowns are tied to a player, not the role itself.",
+            "Nothing resets cooldowns unless a rule explicitly says so.",
+            "If a player changes roles, their cooldowns do not reset.",
+            "If the role changes hands, the cooldown does not transfer with the role (each player tracks their own cooldown history)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "role-disabled",
+      "title": "Role Disabled (Weaken / Jail / Disable Effects)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Some effects can disable a player’s role for the day (and sometimes their vote). If multiple disable effects happen on the same day, they resolve using the priority order below."
+        },
+        {
+          "type": "text",
+          "text": "Disable Priority Order (highest to lowest)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Wizard — Weaken",
+            "Jailor — Jail",
+            "Food-Role disable effects (examples: Jinxed Jackrabbit, Cursed Cuttlefish Ink)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "What “Role Disabled” means"
+        },
+        {
+          "type": "list",
+          "items": [
+            "If a player’s role is disabled for the day, they cannot perform their role action that day (unless explicitly stated otherwise).",
+            "Their vote may be cancelled if the disabling effect states that it cancels voting.",
+            "Some disables only affect role actions; some affect both role actions and voting. The effect description decides what is blocked."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mutual Disables (Example)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "If Hunter finds Jinxed Jackrabbit and Fisher finds Cursed Cuttlefish Ink and they use them on each other the same day: they still keep the fact that they caught/found the special animal/item (catch happens before disable resolves), but their votes are cancelled (and their role actions are disabled) for that day."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kept-on-role",
+      "title": "What is kept on your role?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Players can be given special items, but what happens if you are kicked off or killed and then brought back?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The Machete From Hell will be lost.",
+            "The Special Clothes from the Tailor will be lost.",
+            "The Cook's food will be lost.",
+            "The Farmer will keep the Notch Apple, nothing else.",
+            "The Fisher will keep Moby Dick's Harpoon, nothing else.",
+            "The Hunter will keep Sif, The Great Grey Wolf, nothing else."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "What if I was role swapped or taught a different role and then became that role again?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Everything will be lost."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parlay-rules",
+      "title": "Parlay Rules",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Once a player is kicked off or killed, they can continue interacting with the game by submitting an Island Parlay."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A Parlay is a card of 3 predicted events for a specific day.",
+            "If all 3 events happen, the player is brought back to the Island.",
+            "Failing a Parlay has no negative consequence.",
+            "Even if you do not get all 3 correct, there is a reward system for correct picks."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Event Difficulty Rewards"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Easy: $100",
+            "Medium: $200",
+            "Hard: $350"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Return Requirement"
+        },
+        {
+          "type": "list",
+          "items": [
+            "To be brought back, your Parlay card total must be $650 or more.",
+            "A Parlay total less than $650 will only award money and will not bring you back."
+          ]
+        },
+        {
+          "type": "note",
+          "text": "The Parlay System ends at Top 5. After Top 5, no one will be brought back and the store will be closed."
+        },
+        {
+          "type": "note",
+          "text": "Items bought do not count toward a Parlay. If an item changes the weather, that weather cannot be selected as a Parlay event for that day."
+        },
+        {
+          "type": "note",
+          "text": "IF YOU ARE KICKED/DEAD YOU CANNOT SHARE ANY PARLAY INFORMATION TO THOSE WHO ARE ALIVE. All Parlays must be kept Secret throughout the whole Island Game."
+        }
+      ]
+    },
+    {
+      "id": "disqualifications",
+      "title": "Disqualifications",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "If you break any of the following rules, you will receive a warning. If you continue, you will be disqualified from the current Island game."
+        },
+        {
+          "type": "text",
+          "text": "No NSFW media or explicit content"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Do not post NSFW content. It does not have a place here."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "No screenshots"
+        },
+        {
+          "type": "list",
+          "items": [
+            "No screenshotting private channels. You cannot screenshot any private conversations with the Game Makers or other survivors."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "No hazing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Players should be welcomed to play the game. If actual hostility is detected, you will be disqualified. The game is supposed to be fun for all."
+          ]
+        }
+      ]
+    }
+  ]
+}
