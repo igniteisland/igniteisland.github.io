@@ -387,6 +387,142 @@
     ]
   },
   {
+    "id": "guru",
+    "name": "Guru",
+    "flavor": "Harnesses Celium Crystals to read aura, cleanse corruption, and manipulate karmic energy across The Island.",
+    "sections": [
+      {
+        "title": "Core Rules",
+        "bullets": [
+          "The Guru has 4 Crystals available.",
+          "May use 1 Crystal each day.",
+          "Full Moon / Blood Moon: may take one extra Crystal action (2 total Crystal uses on those days).",
+          "Only one Crystal may be used per action; Crystal 4 (Karmic Vessel) is special and has give/recall rules listed below."
+        ]
+      },
+      {
+        "title": "Crystal 1 — Parlay Prism",
+        "bullets": [
+          "Allows the Guru to read the Parlay activity for that day.",
+          "The Guru receives a list of all Parlay objectives that were submitted that day.",
+          "The Guru does not see any individual Parlay cards or which players submitted them.",
+          "The Guru is not allowed to discuss Parlay strategy with Parlay Players.",
+          "The Guru may share the Parlay objective list with the current players on The Island."
+        ]
+      },
+      {
+        "title": "Crystal 2 — Purity Stone",
+        "bullets": [
+          "Allows the Guru to cleanse 1 player.",
+          "Cleansing removes negative effects such as Poison and effects that prevent a role from happening (role-blocks).",
+          "Jailing cannot be cleansed; the player will still be unable to perform their role if jailed.",
+          "Cleansing may still remove other negative effects on a jailed player (but does not remove the jail itself)."
+        ]
+      },
+      {
+        "title": "Crystal 3 — Revelation Quartz (Aura Read)",
+        "bullets": [
+          "Allows the Guru to read the aura of 1 player.",
+          "The Guru receives one aura reading based on what applies to that player for the day.",
+          "Aura Readings:",
+          "Sensing Danger: the player is being targeted or targeting a player for an attack.",
+          "Sensing Hostility: the player is acting against the Guru (examples: voting for the Guru, attempting to attack the Guru, poisoning the Guru, or using a negative effect on the Guru).",
+          "Sensing Peace: the player is receiving or giving positive effects (examples: healing, armor, protection, buffs).",
+          "Sensing Toxicity: the player is being poisoned or is poisoning.",
+          "Priority if multiple apply: Hostility > Danger > Toxicity > Peace."
+        ]
+      },
+      {
+        "title": "Crystal 4 — Karmic Vessel",
+        "bullets": [
+          "The Guru gives the Karmic Vessel to a player. The Vessel stores the holder’s aura over time based on their actions.",
+          "Handing out the Karmic Vessel counts as using a Crystal for that day.",
+          "Recalling the Karmic Vessel counts as using a Crystal for that day.",
+          "The Guru may recall the Vessel at any time, but will not know its charge until it returns.",
+          "Recall rule: Recalling counts as the action, but the Guru may immediately re-give it the same day instead of doing anything else with crystals."
+        ]
+      },
+      {
+        "title": "Karmic Vessel — Negative Actions Tracked",
+        "bullets": [
+          "NEGATIVE ACTIONS INCLUDE:",
+          "Poisoning.",
+          "Attacking players.",
+          "Voting on the Guru.",
+          "Applying effects that stop a player from doing their role (does not include Jailing).",
+          "Negative actions take priority: if any Negative Action is taken that day, the Vessel charges negatively that day (even if a Positive Action also occurred).",
+          "Neutral actions (no positive or negative) do not move the Vessel’s charge."
+        ]
+      },
+      {
+        "title": "Karmic Vessel — Positive Actions Tracked",
+        "bullets": [
+          "POSITIVE ACTIONS INCLUDE:",
+          "Healing.",
+          "Giving armor.",
+          "Lively Lemons.",
+          "Protecting against attacks.",
+          "Teacher Buff."
+        ]
+      },
+      {
+        "title": "Karmic Vessel — Charging Rules",
+        "bullets": [
+          "Normal Days: Negative day = -1 charge, Positive day = +1 charge.",
+          "Full Moon / Blood Moon: Negative day = -2 charge, Positive day = +2 charge.",
+          "Charge persists until changed by an action day.",
+          "Example: If the Vessel is at -2 and the holder does a Positive Action, the Vessel becomes -1.",
+          "Example: If the Vessel is at -3 and the holder does nothing positive or negative, it remains -3 until an action changes it."
+        ]
+      },
+      {
+        "title": "Karmic Vessel — Negative Effects (applies to current holder)",
+        "bullets": [
+          "Negative -1 (Tainted): Increase poison received from sources by +1.",
+          "Negative -2 (Cursed): Increase poison received by +1; reduce healing received by -1; reduce role success chance by -20% (only for roles it can apply to).",
+          "Negative -3 (Blighted): Increase poison received by +2; reduce healing received by -2; reduce role success chance by -20% (only for roles it can apply to); consume -2 food per day instead of -1; increase the chance of getting sick.",
+          "Negative -4 (Doomed): Increase poison received by +2; reduce healing received by -2; reduce role success chance by -25% (only for roles it can apply to); consume -2 food per day instead of -1; increase the chance of getting sick; all votes toward that player are doubled (works until the Top 4)."
+        ]
+      },
+      {
+        "title": "Karmic Vessel — Positive Effects (applies to current holder)",
+        "bullets": [
+          "Positive +1 (Blessed): Increase healing received from sources by +1.",
+          "Positive +2 (Radiant): Increase healing received by +1; reduce poison received by -1; increase role success chance by +10% (only for roles it can apply to).",
+          "Positive +3 (Exalted): Increase healing received by +2; reduce poison received by -2; increase role success chance by +20% (only for roles it can apply to); votes counted against the player are halved (works until the Top 4).",
+          "Positive +4 (Promised): Increase healing received by +2; reduce poison received by -2; increase role success chance by +25% (only for roles it can apply to); votes counted against the player are halved (works until the Top 4)."
+        ]
+      },
+      {
+        "title": "Global Announcements",
+        "bullets": [
+          "GURU has used PARLAY PRISM",
+          "GURU has used PURITY STONE on PLAYER X",
+          "GURU has used REVELATION QUARTZ on PLAYER X",
+          "GURU has given KARMIC VESSEL to PLAYER X",
+          "GURU has recalled KARMIC VESSEL"
+        ]
+      },
+      {
+        "title": "Information Revealed via Successful Interrogation or Luminous Seashell",
+        "bullets": [
+          "GURU sensed AURA from PLAYER X",
+          "GURU saw PARLAY OBJECTIVE LIST",
+          "GURU is voting for PLAYER X",
+          "Interrogator Only (Day Before): GURU sensed AURA from PLAYER X",
+          "Interrogator Only (Day Before): GURU saw PARLAY OBJECTIVE LIST",
+          "Interrogator Only (Day Before): GURU voted for PLAYER X"
+        ]
+      },
+      {
+        "title": "Extra Action",
+        "bullets": [
+          "On Full Moon and Blood Moon days, the Guru may use one additional Crystal (2 total Crystal uses on those days)."
+        ]
+      }
+    ]
+  },
+  {
     "id": "hunter",
     "name": "Hunter",
     "flavor": "Hunts for Special Animals with unique powers, storage rules, and weather modifiers.",

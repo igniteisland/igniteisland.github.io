@@ -1,0 +1,8 @@
+{
+  "1": {
+    "start": {
+      "elymis": { "role": "", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "psiphicode": { "role": "", "health": 10, "food": 10, "votes": [], "status": "Alive" }
+    }
+  }
+}
