@@ -79,24 +79,34 @@
     "displayName": "Wander",
     "profilePic": "/playerProfilePic/wanderProfilePic.png"
   },
-  "Vakrash": {
+  "vakrash": {
     "id": "vakrash",
     "displayName": "Vakrash",
-    "profilePic": "/playerProfilePic/wanderProfilePic.png"
+    "profilePic": "/playerProfilePic/vakrashProfilePic.png"
   },
-  "Thomas": {
+  "thomas": {
     "id": "thomas",
     "displayName": "Thomas",
-    "profilePic": "/playerProfilePic/wanderProfilePic.png"
+    "profilePic": "/playerProfilePic/thomasProfilePic.jpg"
   },
   "jibbe": {
     "id": "jibbe",
     "displayName": "Jibbe",
-    "profilePic": "/playerProfilePic/wanderProfilePic.png"
+    "profilePic": "/playerProfilePic/jibbeProfilePic.png"
   },
   "nartock": {
     "id": "nartock",
     "displayName": "nartock",
-    "profilePic": "/playerProfilePic/wanderProfilePic.png"
+    "profilePic": "/playerProfilePic/Nartock.png"
+  },
+  "kcbrazos": {
+    "id": "kcbrazos",
+    "displayName": "KCBrazos",
+    "profilePic": "/playerProfilePic/kcProfilePic.png"
+  },
+  "doitz": {
+    "id": "doitz",
+    "displayName": "Doitz",
+    "profilePic": "/playerProfilePic/defaultProfilePic.jpg"
   }
 }
