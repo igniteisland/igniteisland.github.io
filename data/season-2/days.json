@@ -3,6 +3,7 @@
     "start": {
       "helios": { "role": "Assassin", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "kcbrazos": { "role": "Bard", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "jam": { "role": "Bard", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "harv": { "role": "Blacksmith", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "nexus": { "role": "Builder", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "vakrash": { "role": "Cook", "health": 10, "food": 10, "votes": [], "status": "Alive" },
