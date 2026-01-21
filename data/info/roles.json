@@ -727,7 +727,8 @@
           "May heal and poison two different players on the same day.",
           "Cannot heal/poison the same person twice on the same day.",
           "Cannot poison 2 different people in the same day unless there is an extra action.",
-          "May do Heal/Heal or Heal/Poison."
+          "May do Heal/Heal or Heal/Poison.",
+          "Heal/Poison does 2 Health and 1 Food Point"
         ]
       },
       {
