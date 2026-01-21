@@ -15,10 +15,10 @@
       "nartock": { "role": "Jailor", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "doitz": { "role": "Medic", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "strump": { "role": "Medic", "health": 10, "food": 10, "votes": [], "status": "Alive" },
-      "jibbe": { "role": "Nightguard", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "jibbe": { "role": "Nightguard", "health": 10, "food": 10, "votes": [], "status": "Alive", "pendant": 1 },
       "thomas": { "role": "Priest", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "azdomiel": { "role": "Priest", "health": 10, "food": 10, "votes": [], "status": "Alive" },
-      "rambler": { "role": "Scavenger", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "rambler": { "role": "Scavenger", "health": 10, "food": 10, "votes": [], "status": "Alive", "teacherBuff": 1 },
       "lemon": { "role": "Tailor", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "sparklemouse": { "role": "Teacher", "health": 10, "food": 10, "votes": [], "status": "Alive" }
     }
