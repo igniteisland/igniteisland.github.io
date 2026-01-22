@@ -1,0 +1,519 @@
+{
+  "roles": [
+    {
+      "name": "Assassin",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Bard",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Blacksmith",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Builder",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Cook",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Farmer",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Fisher",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Guru",
+      "stats": {
+        "seasonsPlayed": {
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Hunter",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Interrogator",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Jailor",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Medic",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Nightguard",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Priest",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Scavenger",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Tailor",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Teacher",
+      "stats": {
+        "seasonsPlayed": {
+          "season1": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          },
+          "season2": {
+            "appearance": 0,
+            "top10": 0,
+            "top5": 0,
+            "top3": 0,
+            "top2": 0,
+            "win": 0,
+            "deaths": 0,
+            "kickedoff": 0,
+            "kills": 0,
+            "votes": 0
+          }
+        }
+      }
+    }
+  ]
+}

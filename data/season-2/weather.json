@@ -1,5 +1,6 @@
 {
   "season2": {
-    "Day 1": { "temperature": 71, "weather": "Clear", "moon": "Wanning Gibbous", "effects": "", "skull": "white"}
+    "Day 1": { "temperature": 71, "weather": "Clear", "moon": "Wanning Gibbous", "effects": "", "skull": "white"},
+    "Day 2": { "temperature": 68, "weather": "Rainy", "moon": "Half Moon", "effects": "Skull: Blue Eyes | Good Shelter/Bad Clothing", "skull": "Blue"}
   }
 }
