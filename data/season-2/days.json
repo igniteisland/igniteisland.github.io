@@ -103,7 +103,7 @@
       "asym": { "role": "Fisher", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "psiphicode": { "role": "Guru", "health": 10, "food": 10, "votes": [], "status": "Alive"},
       "jay": { "role": "Hunter", "health": 10, "food": 10, "votes": [], "status": "Alive" },
-      "dino": { "role": "Interrogator", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "dino": { "role": "Nightguard", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "nartock": { "role": "Jailor", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "strump": { "role": "Medic", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "jibbe": { "role": "Nightguard", "health": 10, "food": 10, "votes": [], "status": "Alive"},
