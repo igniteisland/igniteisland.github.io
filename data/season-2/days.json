@@ -123,7 +123,7 @@
       "azdomiel": { "role": "Cook", "health": 10, "food": 10, "votes": ["jam"], "status": "Alive" },
       "elymis": { "role": "Farmer", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "asym": { "role": "Fisher", "health": 10, "food": 10, "votes": [ "vakrash", "psiphicode", "azdomiel", "kc", "harv", "strump", "dino" ], "status": "Kicked Off" },
-      "psiphicode": { "role": "Guru", "health": 9, "food": 8, "votes": ["elymis","asym","sparklemouse","rambler"], "status": "Alive", "jailed": 1 },
+      "psiphicode": { "role": "Guru", "health": 8, "food": 7, "votes": ["elymis","asym","sparklemouse","rambler"], "status": "Alive", "jailed": 1 },
       "jay": { "role": "Hunter", "health": 10, "food": 10, "votes": [], "status": "Alive", "teacherBuff": 1 },
       "nartock": { "role": "Jailor", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "doitz": { "role": "Medic", "health": 10, "food": 10, "votes": [], "status": "Alive" },
