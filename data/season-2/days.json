@@ -113,6 +113,28 @@
       "rambler": { "role": "Scavenger", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "lemon": { "role": "Tailor", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "sparklemouse": { "role": "Teacher", "health": 10, "food": 10, "votes": [], "status": "Alive" }
+    },
+    "end": {
+      "helios": { "role": "Assassin", "health": 9, "food": 9, "votes": ["lemon"], "status": "Alive" },
+      "kcbrazos": { "role": "Bard", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "jam": { "role": "Bard", "health": 10, "food": 10, "votes": [ "jibbe" ], "status": "Alive" },
+      "harv": { "role": "Blacksmith", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "nexus": { "role": "Builder", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "azdomiel": { "role": "Cook", "health": 10, "food": 10, "votes": ["jam"], "status": "Alive" },
+      "elymis": { "role": "Farmer", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "asym": { "role": "Fisher", "health": 10, "food": 10, "votes": [ "vakrash", "psiphicode", "azdomiel", "kc", "harv", "strump", "dino" ], "status": "Kicked Off" },
+      "psiphicode": { "role": "Guru", "health": 9, "food": 8, "votes": ["elymis","asym","sparklemouse","rambler"], "status": "Alive", "jailed": 1 },
+      "jay": { "role": "Hunter", "health": 10, "food": 10, "votes": [], "status": "Alive", "teacherBuff": 1 },
+      "nartock": { "role": "Jailor", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "doitz": { "role": "Medic", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "strump": { "role": "Medic", "health": 10, "food": 10, "votes": ["jay"], "status": "Alive", "pendant": 1 },
+      "dino": { "role": "Nightguard", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "jibbe": { "role": "Nightguard", "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "thomas": { "role": "Priest", "health": 10, "food": 10, "votes": ["thomas"], "status": "Alive", "pendant": 1 },
+      "vakrash": { "role": "Priest", "health": 10, "food": 10, "votes": ["nexus"], "status": "Alive" },
+      "rambler": { "role": "Scavenger", "health": 10, "food": 10, "votes": ["nartock"], "status": "Alive" },
+      "lemon": { "role": "Tailor", "health": 10, "food": 10, "votes": ["helios"], "status": "Alive" },
+      "sparklemouse": { "role": "Teacher", "health": 10, "food": 10, "votes": [], "status": "Alive" }
     }
   }
 }
