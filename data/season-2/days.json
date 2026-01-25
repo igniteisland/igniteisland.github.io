@@ -115,7 +115,7 @@
       "sparklemouse": { "role": "Teacher", "health": 10, "food": 10, "votes": [], "status": "Alive" }
     },
     "end": {
-      "helios": { "role": "Assassin", "health": 9, "food": 9, "votes": ["lemon"], "status": "Alive" },
+      "helios": { "role": "Assassin", "health": 8, "food": 8, "votes": ["lemon"], "status": "Alive" },
       "kcbrazos": { "role": "Bard", "health": 10, "food": 10, "votes": [], "status": "Alive" },
       "jam": { "role": "Bard", "health": 10, "food": 10, "votes": [ "jibbe" ], "status": "Alive" },
       "harv": { "role": "Blacksmith", "health": 10, "food": 10, "votes": [], "status": "Alive" },
