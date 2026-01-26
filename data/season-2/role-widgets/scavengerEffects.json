@@ -1,8 +1,8 @@
 {
-   "3": 
+   "4": 
    { 
       "teacherBuff": false, 
-      "satchel": true, 
+      "satchel": false, 
       "storedFind": "Celium Piece" 
    }
 }

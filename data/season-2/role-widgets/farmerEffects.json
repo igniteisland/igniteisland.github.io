@@ -1,7 +1,7 @@
 {
    "4": {
       "teacherBuff": false,
-      "specialClothes": true,
+      "specialClothes": false,
       "storedCrop": "Tasty Tangerines"
    }
 }
