@@ -3,5 +3,10 @@
       "teacherBuff": false,
       "specialClothes": true,
       "storedCrop": "Tasty Tangerines"
+   },
+   "5": {
+      "teacherBuff": false,
+      "specialClothes": false,
+      "storedCrop": "Golden Apple"
    }
 }

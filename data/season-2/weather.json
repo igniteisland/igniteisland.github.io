@@ -1,8 +1,9 @@
 {
   "season2": {
-    "Day 1": { "temperature": 71, "weather": "Clear", "moon": "Wanning Gibbous", "effects": "", "skull": "white"},
-    "Day 2": { "temperature": 68, "weather": "Rainy", "moon": "Half Moon", "effects": "Skull: Blue Eyes | Good Shelter/Bad Clothing", "skull": "Blue"},
-    "Day 3": { "temperature": 78, "weather": "Clear", "moon": "Wanning Crescent", "effects": "Skull: Green Eyes | Good Shelter/Good Clothing", "skull": "Green"},
-    "Day 4": { "temperature": 108, "weather": "Heat Wave", "moon": "Blood Moon", "effects": "Skull: Green Eyes | Good Shelter/Bad Clothing | -1 to Health", "skull": "Green"}
+    "Day 1": { "temperature": 71,  "weather": "Clear",     "moon": "Wanning Gibbous", "effects": "", "skull": "white"},
+    "Day 2": { "temperature": 68,  "weather": "Rainy",     "moon": "Half Moon", "effects": "Skull: Blue Eyes | Good Shelter/Bad Clothing", "skull": "Blue"},
+    "Day 3": { "temperature": 78,  "weather": "Clear",     "moon": "Wanning Crescent", "effects": "Skull: Green Eyes | Good Shelter/Good Clothing", "skull": "Green"},
+    "Day 4": { "temperature": 108, "weather": "Heat Wave", "moon": "Blood Moon", "effects": "Skull: Green Eyes | Good Shelter/Bad Clothing | -1 to Health", "skull": "Green"},
+    "Day 5": { "temperature": 73,  "weather": "Clear",     "moon": "Waxing Crescent", "effects": "Skull: Red Eyes | Good Shelter/Good Clothing | +1 to Health", "skull": "Red"}
   }
 }
