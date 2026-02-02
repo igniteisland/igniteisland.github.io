@@ -221,7 +221,7 @@
       "vakrash":      { "role": "Priest",     "health": 10, "food": 10, "votes": [ "vakrash" ], "status": "Alive", "pendant": 1 },
       "rambler":      { "role": "Scavenger",  "health": 10, "food": 10, "votes": [ "rambler" ], "status": "Alive", "pendant": 1 },
       "dino":         { "role": "Tailor",     "health": 10, "food": 10, "votes": [], "status": "Alive" },
-      "lemon":        { "role": "Tailor",     "health": 6,  "food": 7,  "votes": ["thomas"], "status": "Dead" },
+      "lemon":        { "role": "Tailor",     "health": 5,  "food": 5,  "votes": ["thomas"], "status": "Dead" },
       "sparklemouse": { "role": "Teacher",    "health": 10, "food": 10, "votes": [], "status": "Alive" }
     }
   }
