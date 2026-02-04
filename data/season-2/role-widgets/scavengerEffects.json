@@ -14,7 +14,7 @@
    "6": 
    { 
       "teacherBuff": true, 
-      "satchel": false, 
+      "satchel": true, 
       "storedFind": "Celium Piece | Alternate Timeline | Equalizer" 
    }
 }
