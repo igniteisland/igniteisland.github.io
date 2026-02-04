@@ -5,7 +5,7 @@
       "storedItem": ""
    },
    "6": {
-      "teacherBuff": false,
+      "teacherBuff": true,
       "specialClothes": false,
       "storedItem": ""
    }
