@@ -20,7 +20,7 @@
    "7": 
    { 
       "teacherBuff": false, 
-      "satchel": false, 
+      "satchel": true, 
       "storedFind": "Celium Piece | Alternate Timeline | Equalizer" 
    }
 }
