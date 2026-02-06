@@ -8,5 +8,10 @@
       "teacherBuff": true,
       "specialClothes": false,
       "storedItem": ""
+   },
+   "7": {
+      "teacherBuff": false,
+      "specialClothes": false,
+      "storedItem": "Cursed Cuttlefish Ink"
    }
 }
