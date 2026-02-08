@@ -2,5 +2,9 @@
    "4": {
       "teacherBuff": false,
       "MacheteFromHell": true
+   },
+   "8": {
+      "teacherBuff": false,
+      "MacheteFromHell": false
    }
 }
