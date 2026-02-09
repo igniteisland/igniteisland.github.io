@@ -15,7 +15,7 @@
       "storedItem": "Cursed Cuttlefish Ink"
    },
    "8": {
-      "teacherBuff": false,
+      "teacherBuff": true,
       "specialClothes": false,
       "storedItem": "The Black Pearl"
    }
