@@ -26,7 +26,7 @@
    },
    "9": {
       "teacherBuff": false,
-      "robinHood": false,
+      "robinHood": true,
       "storedTarget": "Sif"
    }
 }
