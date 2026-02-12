@@ -8,6 +8,6 @@
     "Day 6": { "temperature": 88,  "weather": "Hot",       "moon": "Half Moon", "effects": "Skull: Blue Eyes | Good Shelter/Bad Clothing | +0 to Health", "skull": "Blue"},
     "Day 7": { "temperature": 88,  "weather": "Hot",       "moon": "Half Moon", "effects": "Skull: Blue Eyes | Bad Shelter/Good Clothing | +0 to Health", "skull": "Blue"},
     "Day 8": { "temperature": 68,  "weather": "Rainy",     "moon": "Waxing Gibbous", "effects": "Skull: Green Eyes | Good Shelter/Bad Clothing | +0 to Health", "skull": "Green" },
-    "Day 9": { "temperature": 62,  "weather": "Rainy",     "moon": "Full Moon", "effects": "Skull: Blue Eyes", "skull": "Blue" }
+    "Day 9": { "temperature": 62,  "weather": "Rainy",     "moon": "Full Moon", "effects": "Skull: Blue Eyes | Bad Shelter/Bad Clothing | -1 to Health", "skull": "Blue" }
   }
 }
