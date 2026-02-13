@@ -354,7 +354,23 @@
       "vakrash":      { "role": "Priest",        "health": 9, "food": 10, "votes": [], "status": "Alive", "pendant": 1 },
       "rambler":      { "role": "Scavenger",     "health": 9, "food": 10, "votes": [], "status": "Alive" },
       "dino":         { "role": "Tailor",        "health": 9, "food": 10, "votes": [], "status": "Alive" },
-      "sparklemouse": { "role": "Nightguard",    "health": 9, "food": 10, "votes": [], "status": "Alive" }
+      "sparklemouse": { "role": "Nightguard",    "health": 9, "food": 10, "votes": [], "status": "Alive", "pendant": 1 }
+    },
+    "end": {
+      "helios":       { "role": "Assassin",      "health": 9, "food": 10, "votes": [], "status": "Alive" },
+      "jam":          { "role": "Bard",          "health": 8, "food": 8, "votes": [], "status": "Alive" },
+      "harv":         { "role": "Blacksmith",    "health": 9, "food": 10, "votes": [], "status": "Alive" },
+      "nexus":        { "role": "Builder",       "health": 10, "food": 10, "votes": ["harv","vakrash","azdomiel","doitz","psiphicode"], "status": "Alive" },
+      "azdomiel":     { "role": "Cook",          "health": 10, "food": 10, "votes": ["jam", "nexus","elymis","wizard","dino","rambler","sparklemouse"], "status": "Kicked Off" },
+      "elymis":       { "role": "Farmer",        "health": 9, "food": 10, "votes": [], "status": "Alive" },
+      "psiphicode":   { "role": "Guru",          "health": 10, "food": 10, "votes": ["helios"], "status": "Alive", "armor": 1 },
+      "jay":          { "role": "Hunter",        "health": 9, "food": 10, "votes": [], "status": "Alive" },
+      "nartock":      { "role": "Jailor",        "health": 10, "food": 9,  "votes": [], "status": "Alive", "jailed": 1 },
+      "doitz":        { "role": "Medic",         "health": 9, "food": 10, "votes": [], "status": "Alive", "armor": 1},
+      "vakrash":      { "role": "Priest",        "health": 10, "food": 10, "votes": [], "status": "Alive", "pendant": 1 },
+      "rambler":      { "role": "Scavenger",     "health": 10, "food": 10, "votes": [], "status": "Alive" },
+      "dino":         { "role": "Tailor",        "health": 8, "food": 8, "votes": [], "status": "Alive" },
+      "sparklemouse": { "role": "Nightguard",    "health": 10, "food": 10, "votes": [], "status": "Alive", "pendant": 1 }
     }
   }
 }
