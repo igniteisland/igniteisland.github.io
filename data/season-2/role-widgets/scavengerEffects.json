@@ -34,5 +34,11 @@
       "teacherBuff": true, 
       "satchel": false, 
       "storedFind": "Celium Piece | Alternate Timeline | Equalizer(Red/Blue) | Summoning Key" 
+   },
+   "10": 
+   { 
+      "teacherBuff": false, 
+      "satchel": false, 
+      "storedFind": "Celium Piece | Alternate Timeline | Equalizer(Red/Blue)" 
    }
 }

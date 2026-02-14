@@ -28,5 +28,10 @@
       "teacherBuff": false,
       "specialClothes": true,
       "storedCrop": "Golden Apple"
+   },
+   "10": {
+      "teacherBuff": false,
+      "specialClothes": false,
+      "storedCrop": "Golden Apple"
    }
 }
