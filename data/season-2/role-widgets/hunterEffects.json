@@ -33,5 +33,10 @@
       "teacherBuff": false,
       "robinHood": true,
       "storedTarget": "Ethereal Eagle | Sif"
+   },
+   "11": {
+      "teacherBuff": false,
+      "robinHood": false,
+      "storedTarget": "Envious Fox | Sif"
    }
 }
