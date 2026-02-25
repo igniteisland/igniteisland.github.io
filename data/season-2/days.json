@@ -449,6 +449,20 @@
       "sparklemouse": { "role": "Priest",       "health": 7,  "food": 7,   "votes":  [], "status": "Alive" },
       "rambler":      { "role": "Scavenger",    "health": 7,  "food": 7,   "votes":  [], "status": "Alive" },
       "jibbe":        { "role": "Nightguard",   "health": 10, "food": 10,  "votes":  [], "status": "Alive" }
+    },
+    "end": {
+      "helios":       { "role": "Assassin",     "health": 4,  "food": 4,   "votes":  [], "status": "Alive" },
+      "jam":          { "role": "Bard",         "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
+      "harv":         { "role": "Blacksmith",   "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
+      "elymis":       { "role": "Farmer",       "health": 10, "food": 10,  "votes":  [], "status": "Alive", "pendant": 1 },
+      "nexus":        { "role": "Builder",      "health": 10, "food": 9,   "votes":  ["bird"], "status": "Alive" },
+      "psiphicode":   { "role": "Guru",         "health": 10, "food": 9,   "votes":  [], "status": "Alive" },
+      "azdomiel":     { "role": "Cook",         "health": 10, "food": 9,   "votes":  [], "status": "Alive" },
+      "strump":       { "role": "Medic",        "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
+      "doitz":        { "role": "Medic",        "health": 10, "food": 9,   "votes":  [], "status": "Alive" },
+      "sparklemouse": { "role": "Priest",       "health": 9,  "food": 9,   "votes":  [], "status": "Dead"  },
+      "rambler":      { "role": "Scavenger",    "health": 5,  "food": 5,   "votes":  [], "status": "Alive" },
+      "jibbe":        { "role": "Nightguard",   "health": 10, "food": 10,  "votes":  [], "status": "Alive" }
     }
   }
 }
