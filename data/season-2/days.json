@@ -461,7 +461,7 @@
       "strump":       { "role": "Medic",        "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
       "doitz":        { "role": "Medic",        "health": 10, "food": 9,   "votes":  [], "status": "Alive" },
       "sparklemouse": { "role": "Priest",       "health": 9,  "food": 9,   "votes":  [], "status": "Dead"  },
-      "rambler":      { "role": "Scavenger",    "health": 5,  "food": 5,   "votes":  [], "status": "Alive" },
+      "rambler":      { "role": "Scavenger",    "health": 4,  "food": 3,   "votes":  [], "status": "Alive" },
       "jibbe":        { "role": "Nightguard",   "health": 10, "food": 10,  "votes":  [], "status": "Alive" }
     }
   }
