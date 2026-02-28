@@ -472,12 +472,27 @@
       "harv":         { "role": "Blacksmith",   "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
       "elymis":       { "role": "Farmer",       "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
       "nexus":        { "role": "Builder",      "health": 10, "food": 9,   "votes":  [], "status": "Alive" },
-      "psiphicode":   { "role": "Guru",         "health": 10, "food": 9,   "votes":  [], "status": "Alive" },
+      "psiphicode":   { "role": "Guru",         "health": 10, "food": 9,   "votes":  [], "status": "Alive", "armor": 1 },
       "azdomiel":     { "role": "Cook",         "health": 10, "food": 9,   "votes":  [], "status": "Alive" },
       "strump":       { "role": "Medic",        "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
       "doitz":        { "role": "Medic",        "health": 10, "food": 9,   "votes":  [], "status": "Alive" },
       "sparklemouse": { "role": "Priest",       "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
       "rambler":      { "role": "Scavenger",    "health": 2,  "food": 1,   "votes":  [], "status": "Alive" },
+      "jibbe":        { "role": "Nightguard",   "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
+      "lemon":        { "role": "Tailor",       "health": 10, "food": 10,  "votes":  [], "status": "Alive" }
+    },
+    "end": {
+      "helios":       { "role": "Assassin",     "health": 0,  "food": 0,   "votes":  ["lemon","helios"], "status": "Dead" },
+      "jam":          { "role": "Bard",         "health": 10, "food": 9,   "votes":  ["jibbe"], "status": "Alive" },
+      "harv":         { "role": "Blacksmith",   "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
+      "elymis":       { "role": "Farmer",       "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
+      "nexus":        { "role": "Builder",      "health": 2,  "food": 4,   "votes":  ["elymis","strump","rambler","sparklemouse"], "status": "Alive" },
+      "psiphicode":   { "role": "Guru",         "health": 10, "food": 10,  "votes":  [], "status": "Alive", "armor": 1 },
+      "azdomiel":     { "role": "Cook",         "health": 10, "food": 10,  "votes":  ["nexus", "jam"], "status": "Alive" },
+      "strump":       { "role": "Medic",        "health": 9,  "food": 9,   "votes":  [], "status": "Alive" },
+      "doitz":        { "role": "Medic",        "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
+      "sparklemouse": { "role": "Priest",       "health": 10, "food": 10,  "votes":  ["doitz","doitz","azdomiel","azdomiel","psiphicode","psiphicode"], "status": "Kicked Off" },
+      "rambler":      { "role": "Scavenger",    "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
       "jibbe":        { "role": "Nightguard",   "health": 10, "food": 10,  "votes":  [], "status": "Alive" },
       "lemon":        { "role": "Tailor",       "health": 10, "food": 10,  "votes":  [], "status": "Alive" }
     }
