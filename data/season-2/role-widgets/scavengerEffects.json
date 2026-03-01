@@ -62,7 +62,7 @@
    "14": 
    { 
       "teacherBuff": false, 
-      "satchel": false, 
+      "satchel": true, 
       "storedFind": "Celium Piece | Equalizer(Red/Blue)"
    }
 }
