@@ -12,6 +12,7 @@
     "Day 10": { "temperature": 115,  "weather": "Heat Wave",     "moon": "Waning Gibbous",   "effects": "Skull: Yellow Eyes | Good Shelter/Bad Clothing | -1 to Health", "skull": "Yellow" },
     "Day 11": { "temperature": 92,   "weather": "Hot",           "moon": "Half Moon",        "effects": "Skull: Red Eyes | Good Shelter/Good Clothing | +1 to Health", "skull": "Red" },
     "Day 12": { "temperature": 43,   "weather": "Cold",          "moon": "Waning Crescent",  "effects": "Skull: White Eyes | Good Shelter/Bad Clothing | +0 to Health", "skull": "white" },
-    "Day 13": { "temperature": 73,   "weather": "Clear",         "moon": "Blood Moon",       "effects": "Skull: Yellow Eyes | Good Shelter/Good Clothing | +1 to Health", "skull": "Yellow" }
+    "Day 13": { "temperature": 73,   "weather": "Clear",         "moon": "Blood Moon",       "effects": "Skull: Yellow Eyes | Good Shelter/Good Clothing | +1 to Health", "skull": "Yellow" },
+    "Day 14": { "temperature": 42,   "weather": "Cold",          "moon": "Waxing Crescent",  "effects": "Skull: Green Eyes | ? Shelter/? Clothing | +0 to Health", "skull": "Green" }
   }
 }
