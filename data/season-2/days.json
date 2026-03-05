@@ -561,6 +561,16 @@
       "doitz":        { "role": "Medic",        "health": 8, "food": 7,  "votes":  [], "status": "Alive" },
       "jibbe":        { "role": "Nightguard",   "health": 9, "food": 7,  "votes":  [], "status": "Alive" },
       "lemon":        { "role": "Tailor",       "health": 9, "food": 8, "votes":   [], "status": "Alive" }
+    },
+    "end": {
+      "harv":         { "role": "Blacksmith",  "health": 9,  "food": 7, "votes":   [], "status": "Alive" },
+      "nexus":        { "role": "Builder",     "health": 9,  "food": 5, "votes":   ["harv","harv","azdomiel","azdomiel","psiphicode","psiphicode","doitz","doitz","strump","strump"], "status": "Kicked Off" },
+      "psiphicode":   { "role": "Guru",        "health": 9,  "food": 5, "votes":   [], "status": "Alive" },
+      "azdomiel":     { "role": "Cook",        "health": 8,  "food": 6, "votes":   [], "status": "Alive" },
+      "strump":       { "role": "Medic",       "health": 10, "food": 6, "votes":   ["jibbe","nexus"], "status": "Alive" },
+      "doitz":        { "role": "Medic",       "health": 8,  "food": 6, "votes":   [], "status": "Alive" },
+      "jibbe":        { "role": "Nightguard",  "health": 6,  "food": 3, "votes":   [], "status": "Alive" },
+      "lemon":        { "role": "Tailor",      "health": 4,  "food": 4, "votes":   [], "status": "Alive" }
     }
   }
 }
