@@ -16,6 +16,5 @@
     "Day 14": { "temperature": 42,   "weather": "Cold",       "moon": "Waxing Crescent",  "effects": "Skull: Green Eyes | Bad Shelter/Good Clothing | +0 to Health", "skull": "Green" },
     "Day 15": { "temperature": 53,   "weather": "Cold",       "moon": "Half Moon",        "effects": "Skull: Yellow Eyes | Good Shelter/Bad Clothing | +0 to Health", "skull": "Yellow" },
     "Day 16": { "temperature": 72,   "weather": "Clear",      "moon": "Waxing Gibbous",   "effects": "Skull: Blue Eyes |  Bad Shelter/ Bad Clothing | +0 to Health", "skull": "Blue" },
-    "Day 17": { "temperature": 62,   "weather": "Rainy",      "moon": "Full Moon",        "effects": "Skull: Red Eyes |  Bad Shelter/ Bad Clothing | -1 to Health", "skull": "Red" }
-  }
+    "Day 17": { "temperature": 62,   "weather": "Rainy",      "moon": "Full Moon",        "effects": "Skull: Red Eyes |  Bad Shelter/ Bad Clothing | -1 to Health", "skull": "Red" }  }
 }

@@ -585,7 +585,7 @@
     },
     "end": {
       "harv":         { "role": "Blacksmith",  "health": 9,  "food": 7, "votes":   [], "status": "Alive" },
-      "psiphicode":   { "role": "Guru",        "health": 7,  "food": 4, "votes":   ["jibbe","jibbe"], "status": "Alive", "armor": 1 },
+      "psiphicode":   { "role": "Guru",        "health": 7,  "food": 3, "votes":   ["jibbe","jibbe"], "status": "Alive", "armor": 1 },
       "azdomiel":     { "role": "Cook",        "health": 8,  "food": 5, "votes":   [], "status": "Alive" },
       "strump":       { "role": "Medic",       "health": 10, "food": 6, "votes":   [], "status": "Alive" },
       "doitz":        { "role": "Medic",       "health": 8,  "food": 6, "votes":   ["bird"], "status": "Alive" },

@@ -3,7 +3,7 @@
     "id": "p1",
     "name": "Harv",
     "role": "Blacksmith",
-    "health": 7,
+    "health": 6,
     "food": 7,
     "profilePic": "/playerProfilePic/harvProfilePic.png"
   },
@@ -11,16 +11,16 @@
     "id": "p2",
     "name": "Psiphicode",
     "role": "Guru",
-    "health": 7,
-    "food": 5,
+    "health": 5,
+    "food": 3,
     "profilePic": "/playerProfilePic/psiProfilePic.png"
   },
   {
     "id": "p3",
     "name": "Azdomiel",
     "role": "Cook",
-    "health": 8,
-    "food": 6,
+    "health": 6,
+    "food": 5,
     "profilePic": "/playerProfilePic/azdomielProfilePic.png"
   },
   {
