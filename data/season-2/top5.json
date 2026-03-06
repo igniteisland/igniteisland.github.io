@@ -1,0 +1,42 @@
+[
+  {
+    "id": "p1",
+    "name": "Harv",
+    "role": "Blacksmith",
+    "health": 7,
+    "food": 7,
+    "profilePic": "/playerProfilePic/harvProfilePic.png"
+  },
+  {
+    "id": "p2",
+    "name": "Psiphicode",
+    "role": "Guru",
+    "health": 7,
+    "food": 5,
+    "profilePic": "/playerProfilePic/psiProfilePic.png"
+  },
+  {
+    "id": "p3",
+    "name": "Azdomiel",
+    "role": "Cook",
+    "health": 8,
+    "food": 6,
+    "profilePic": "/playerProfilePic/azdomielProfilePic.png"
+  },
+  {
+    "id": "p4",
+    "name": "Strump",
+    "role": "Medic",
+    "health": 8,
+    "food": 6,
+    "profilePic": "/playerProfilePic/strumpProfilePic.png"
+  },
+  {
+    "id": "p5",
+    "name": "Doitz",
+    "role": "Medic",
+    "health": 6,
+    "food": 6,
+    "profilePic": "/playerProfilePic/defaultProfilePic.jpg"
+  }
+]
