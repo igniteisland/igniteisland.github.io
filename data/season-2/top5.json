@@ -1,11 +1,11 @@
 [
   {
     "id": "p1",
-    "name": "Harv",
-    "role": "Blacksmith",
-    "health": 6,
-    "food": 7,
-    "profilePic": "/playerProfilePic/harvProfilePic.png"
+    "name": "Elymis",
+    "role": "Farmer",
+    "health": 10,
+    "food": 10,
+    "profilePic": "/playerProfilePic/elymisProfilePic.png"
   },
   {
     "id": "p2",

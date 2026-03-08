@@ -53,5 +53,10 @@
       "teacherBuff": false,
       "specialClothes": false,
       "storedCrop": "Golden Apple"
+   },
+   "19": {
+      "teacherBuff": false,
+      "specialClothes": false,
+      "storedCrop": ""
    }
 }
