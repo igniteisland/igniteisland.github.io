@@ -626,5 +626,13 @@
       "strump":       { "role": "Medic",       "health": 6,  "food": 3, "votes":     [], "status": "Alive" },
       "doitz":        { "role": "Medic",       "health": 5,  "food": 5, "votes":     [], "status": "Alive" }
     }
+  },
+  "20": {
+    "start": {
+      "psiphicode":   { "role": "Guru",        "health": 5,  "food": 3, "votes":     [], "status": "Alive" },
+      "azdomiel":     { "role": "Cook",        "health": 4,  "food": 4, "votes":     [], "status": "Alive" },
+      "strump":       { "role": "Medic",       "health": 5,  "food": 3, "votes":     [], "status": "Alive" },
+      "doitz":        { "role": "Medic",       "health": 4,  "food": 5, "votes":     [], "status": "Alive" }
+    }
   }
 }
