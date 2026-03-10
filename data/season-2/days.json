@@ -633,6 +633,12 @@
       "azdomiel":     { "role": "Cook",        "health": 4,  "food": 4, "votes":     [], "status": "Alive" },
       "strump":       { "role": "Medic",       "health": 5,  "food": 3, "votes":     [], "status": "Alive" },
       "doitz":        { "role": "Medic",       "health": 4,  "food": 5, "votes":     [], "status": "Alive" }
+    },
+    "end": {
+      "psiphicode":   { "role": "Guru",        "health": 0,  "food": 0, "votes":     [], "status": "Dead" },
+      "azdomiel":     { "role": "Cook",        "health": 6,  "food": 5, "votes":     [], "status": "Alive", "winner": 1 },
+      "strump":       { "role": "Medic",       "health": 5,  "food": 3, "votes":     ["psiphicode","doitz","strump","azdomiel"], "status": "Kicked Off" },
+      "doitz":        { "role": "Medic",       "health": 0,  "food": 1, "votes":     ["bird"], "status": "Dead" }
     }
   }
 }
